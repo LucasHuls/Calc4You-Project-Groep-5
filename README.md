@@ -11,7 +11,7 @@
     <br />
     <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/LucasHuls/ScrumGroep5/issues">Meld een bug »</a>
+    <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</a>
   </p>
 </p>
 
@@ -27,7 +27,7 @@ git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
 ## Contact
-Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">Hier</a>
+Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">hier</a>
 <br>
 Jesse Overveld = 0320044@student.rocvantwente.nl
 <br>
