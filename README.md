@@ -9,7 +9,7 @@
   <p align="center">
     Github of Scrum groep 5
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/LucasHuls/ScrumGroep5/issues">Meld een bug</a>
   </p>
