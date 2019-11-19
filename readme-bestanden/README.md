@@ -3,8 +3,8 @@
 ```sh
 git pull
 ```
-**Dit update je lokale repository (het mapje in je pc)
-Doe dit altijd als eerst!**
+*Dit update je lokale repository (het mapje in je pc)
+Doe dit altijd als eerst!*
 
 <strong>Push :</strong>
 Om iets aan te passen / toe te voegen zet je het eerst in je lokale repository.
