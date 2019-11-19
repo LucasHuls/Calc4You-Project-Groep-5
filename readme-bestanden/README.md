@@ -1,12 +1,12 @@
 ## Basis uitleg met push & pull
-Pull :
+<strong>Pull :</strong>
 ```sh
 git pull
 ```
 Dit update je lokale repository (het mapje in je pc)
 Doe dit altijd als eerst!
 
-Push :
+<strong>Push :</strong>
 Om iets aan te passen / toe te voegen zet je het eerst in je lokale repository.
 Als je dat hebt gedaan open je git bash.
 Het eerste wat je doet is in de repository komen, dit doe je met:
