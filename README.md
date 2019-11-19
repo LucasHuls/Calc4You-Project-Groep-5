@@ -9,7 +9,6 @@
   <p align="center">
     <strong>Menu</strong>
     <br />
-    <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</strong></a>
 	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/wiki"><strong>Wiki »</strong></a>
 	<br />
