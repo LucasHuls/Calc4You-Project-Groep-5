@@ -7,11 +7,11 @@
   <h3 align="center">Scrum Groep 5</h3>
 
   <p align="center">
-    Github of Scrum groep 5
+    Github van Scrum groep 5
     <br />
     <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/LucasHuls/ScrumGroep5/issues">Meld een bug</a>
+    <a href="https://github.com/LucasHuls/ScrumGroep5/issues">Meld een bug »</a>
   </p>
 </p>
 
@@ -28,14 +28,14 @@ git clone https://github.com/LucasHuls/ScrumGroep5
 
 <!-- CONTACT -->
 ## Contact
-Jesse Overveld = 
+Jesse Overveld = 0320044@student.rocvantwente.nl
 <br>
-Bram van Nek = 
+Bram van Nek = 0320069@student.rocvantwente.nl
 <br>
-Sam Elfring = 
+Sam Elfring = 0318893@student.rocvantwente.nl
 <br>
-Lucas Huls = 
+Lucas Huls = 0320242@student.rocvantwente.nl
 <br>
-Julian Moreno = 
+Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
 Project Link: [https://github.com/LucasHuls/ScrumGroep5](https://github.com/LucasHuls/ScrumGroep5)
