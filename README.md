@@ -17,7 +17,7 @@
 
 ## Project
 
-Calc4You
+Calc4YouJullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ontwikkeld oplossingen om mensen te helpen bij rekenen en het inzichtelijk krijgen van hun inkomsten en uitgaven. Hiervoor hebben ze een methode ontwikkeld waarin ze hun klanten laten oefenen met verschillende opdrachten. In deze opdrachten moet er gerekend worden ze willen voor dit doel een rekenmachine applicatie laten ontwikkelen. Maar zij hebben geen Software Ontwikkelaars in dienst, ze hebben daarom aan jullie scrum groep gevraagd om zo'n applicatie voor hun te ontwikkelen. Om duidelijk te krijgen wat er ontwikkeld moet worden gaan jullie in gesprek met jullie coach/product owner om duidelijk te krijgen wat de wensen en eisen zijn. Het is aan jullie om hem uit te nodigen voor een gesprek! 
 
 ## Instalatie
 
@@ -26,7 +26,6 @@ Calc4You
 git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
-<!-- CONTACT -->
 ## Contact
 Jesse Overveld = 0320044@student.rocvantwente.nl
 <br>
