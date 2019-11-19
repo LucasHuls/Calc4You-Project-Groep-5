@@ -39,4 +39,6 @@ Lucas Huls = 0320242@student.rocvantwente.nl
 <br>
 Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
+
+## Handige Info
 Project Link: [https://github.com/LucasHuls/ScrumGroep5](https://github.com/LucasHuls/ScrumGroep5)
