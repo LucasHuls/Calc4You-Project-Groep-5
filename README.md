@@ -1,2 +1,5 @@
 # ScrumGroep5
-Bram, Lucas, Sam, Coolio, Jessie
+Scrumleader = Jesse Overveld
+Notulist = Lucas Huls
+Bordschrijver = Sam Elfring
+Deelnemer = Coolio
