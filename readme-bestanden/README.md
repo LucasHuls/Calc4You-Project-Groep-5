@@ -1,4 +1,4 @@
-##Basis uitleg met push & pull
+## Basis uitleg met push & pull
 Pull :
 ```sh
 git pull
@@ -22,7 +22,7 @@ En als je dat allemaal hebt gedaan kun je het pushen:
 git push
 ```
 
-##Handige GIT Commands
+## Handige GIT Commands
 Gebruiker aanmaken (zonder dit werkt de push enzo niet)
 ```sh
 git config --global user.name "Naam + Achternaam"
