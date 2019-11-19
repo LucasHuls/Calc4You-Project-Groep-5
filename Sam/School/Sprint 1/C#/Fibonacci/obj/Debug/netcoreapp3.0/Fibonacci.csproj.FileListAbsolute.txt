@@ -1,0 +1,11 @@
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.exe
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.deps.json
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.runtimeconfig.json
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.runtimeconfig.dev.json
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.dll
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\bin\Debug\netcoreapp3.0\Fibonacci.pdb
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.csprojAssemblyReference.cache
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.AssemblyInfoInputs.cache
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.AssemblyInfo.cs
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.dll
+C:\Users\elfri\Dropbox\Sam\Sprint 1\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.pdb

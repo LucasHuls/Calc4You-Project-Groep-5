@@ -1,0 +1,167 @@
+/* Stijlen voor RadioGaGa */
+html {
+	height: 100%;
+	width: 100%;
+	background-color: lightgray;
+	overflow: auto;
+}
+
+body {
+	width: 96%;
+	margin: 0 auto 5% auto;
+	border: 1px solid;
+	overflow: inherit;
+	background-color: #fff;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	text-align: center;
+	margin: 0 0 0 0;
+	padding-left: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	flex: 1;
+}
+
+nav ul li {
+	width: 25%;
+	background: linear-gradient(#9FB3B5, #E3E9EA, #7C9799)
+}
+
+h3 {
+	margin: 0;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+	text-decoration: none;
+}
+
+nav ul li a {
+	font-size: 1.7rem;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+nav ul li a:hover,
+nav ul li a:focus {
+	color: firebrick;
+	letter-spacing: 5px;
+	background-color: yellow;
+}
+
+#logo {
+	margin-top: 25px;
+	padding-top: 10%;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+main {
+	width: 100%;
+	margin: 0;
+	padding-bottom: 3%;
+}
+
+#disc {
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.8;
+	width: 400px;
+	height: 400px;
+	margin-top: 10%;
+
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, grey, black);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, grey 0%, black 100%, blak 95%);
+
+	animation-name: revolutie;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes revolutie {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+#center {
+	width: 105px;
+	height: 105px;
+	background: orange;
+	position: relative;
+	top: 37%;
+	left: 37%;
+	display: block;
+	border: 0.5px solid #fff;
+	border-radius: 50%;
+}
+
+/*Pager links*/
+#pager a {
+	font-size: 3rem;
+	font-weight: bolder;
+	text-decoration: none;
+	border-radius: 50%;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8)
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#pager a:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=40);
+	font-size: 3.2rem;
+	background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55)
+}
+
+#vorige {
+	z-index: 1;
+	margin-left: 10px;
+	position: fixed;
+	top: 45%;
+	left: 4%
+}
+
+/*Pager Rechts*/
+#volgende {
+	z-index: 1;
+	margin-right: 10px;
+	position: absolute;
+	top: 45%;
+	right: 4%;
+}
+
+#pager_rechts a {
+	font-size: 3rem;
+	font-weight: bolder;
+	text-decoration: none;
+	border-radius: 50%;
+	box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8)
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#pager_rechts a:hover {
+	opacity: 0.7;
+	filter: alpha(opacity=40);
+	font-size: 3.2rem;
+	background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55)
+}
