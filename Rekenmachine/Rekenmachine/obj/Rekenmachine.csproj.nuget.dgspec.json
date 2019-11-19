@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elfri\\Dropbox\\Sam\\School\\Sprint 2\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elfri\\Dropbox\\Sam\\School\\Sprint 2\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elfri\\Dropbox\\Sam\\School\\Sprint 2\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
         "projectName": "Rekenmachine",
-        "projectPath": "C:\\Users\\elfri\\Dropbox\\Sam\\School\\Sprint 2\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
         "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elfri\\Dropbox\\Sam\\School\\Sprint 2\\Rekenmachine\\Rekenmachine\\obj\\",
+        "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

@@ -72,12 +72,12 @@ namespace Rekenmachine
             Uitkomst.Text += "4";
         }
 
-        private void VijfClick(object sender, RoutedEventArgs e)
+        public void VijfClick(object sender, RoutedEventArgs e)
         {
             Uitkomst.Text += "5";
         }
 
-        private void ZesClick(object sender, RoutedEventArgs e)
+        public void ZesClick(object sender, RoutedEventArgs e)
         {
             Uitkomst.Text += "6";
         }
@@ -122,7 +122,7 @@ namespace Rekenmachine
             Uitkomst.Text += ",";
         }
 
-        private void IsClick(object sender, RoutedEventArgs e)
+        public void IsClick(object sender, RoutedEventArgs e)
         {
             
         }
