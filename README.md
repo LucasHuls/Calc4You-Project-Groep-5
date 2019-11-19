@@ -28,6 +28,7 @@ git clone https://github.com/LucasHuls/ScrumGroep5
 
 ## Contact
 Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">Hier</a>
+<br>
 Jesse Overveld = 0320044@student.rocvantwente.nl
 <br>
 Bram van Nek = 0320069@student.rocvantwente.nl
