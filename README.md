@@ -7,13 +7,15 @@
   <h3 align="center">Scrum Groep 5</h3>
 
   <p align="center">
-    Github van Scrum groep 5
-    <br />
-    <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
+    <strong>Menu</strong>
     <br />
     <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</strong></a>
 	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/wiki"><strong>Wiki »</strong></a>
+	<br />
+    <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</strong></a>
+	<br />
+    <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
 	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/tree/master/readme-bestanden"><strong>GIT Commands & Uitleg »</a>
   </p>
@@ -25,7 +27,7 @@ Jullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ont
 
 ## Instalatie
 
-1. Clone the repo
+1. Clone de repository
 ```sh
 git clone https://github.com/LucasHuls/ScrumGroep5
 ```

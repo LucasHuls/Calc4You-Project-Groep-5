@@ -66,3 +66,4 @@ Bestandsaanpassingen ontvangen van github
 ```sh
 git pull
 ```
+<strong>Met trots gemaakt door Lucas & Sam!</strong>
