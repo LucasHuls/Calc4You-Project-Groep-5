@@ -31,7 +31,7 @@ git config --global user.name "Naam + Achternaam"
 git config --global user.email mail@example.com
 ```
 
-Online git repository toevoegen aan een map (kies een map uit met de cd cmd)
+Online GIT repository toevoegen aan een map (kies een map uit met de cd cmd)
 ```sh
 git clone (link naar repository)
 ```
