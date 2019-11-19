@@ -28,30 +28,6 @@ Jullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ont
 git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
-## Push / Pull
-Pull :
-```sh
-git pull
-```
-Dit update je lokale repository (het mapje in je pc)
-Doe dit altijd als eerst!
-
-Push :
-Om iets aan te passen / toe te voegen zet je het eerst in je lokale repository.
-Als je dat hebt gedaan open je git bash.
-Het eerste wat je doet is in de repository komen, dit doe je met:
-```sh
-cd "C:\[path naar je repository]"
-```
-Daarna doe je de commit command:
-```sh
-git commit -m "[bericht]"
-```
-En als je dat allemaal hebt gedaan kun je het pushen:
-```sh
-git push
-```
-
 ## Contact
 Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">hier</a>
 <br>
