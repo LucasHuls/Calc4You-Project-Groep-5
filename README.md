@@ -12,6 +12,8 @@
     <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</a>
+	<br />
+	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/wiki"><strong>Wiki »</a>
   </p>
 </p>
 
