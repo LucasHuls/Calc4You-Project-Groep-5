@@ -215,7 +215,8 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
-
+            var binair = Convert.ToString(Convert.ToInt32(invoer), 2);
+            Uitkomst.Text = Convert.ToString(binair);
         }
     }
 }
