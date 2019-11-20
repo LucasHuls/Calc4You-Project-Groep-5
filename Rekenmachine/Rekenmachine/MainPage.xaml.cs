@@ -203,16 +203,11 @@ namespace Rekenmachine
                 {
                     Uitkomst.Text = "Je kunt niet delen door 0!";
                 }
-<<<<<<< HEAD
-
-
-=======
             }
             else if (operatie == '%')
             {
                 resultaat = nummer1 % nummer2;
                 Uitkomst.Text = resultaat.ToString();
->>>>>>> 37ca6b5b74aa0da6cd54ccfd69ce7653f1c88bf9
             }
         }
     }
