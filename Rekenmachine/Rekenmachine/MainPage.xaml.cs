@@ -27,104 +27,203 @@ namespace Rekenmachine
             this.InitializeComponent();
         }
 
+        string invoer = string.Empty;
+        string getal1 = string.Empty;
+        string getal2 = string.Empty;
+        string getal3 = string.Empty;
+        char operatie;
+        double resultaat = 0.0;
+
         public void CEClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text = "";
+            this.Uitkomst.Text = "";
+            this.invoer = string.Empty;
+            this.getal1 = string.Empty;
+            this.getal2 = string.Empty;
+            this.getal3 = string.Empty;
         }
 
         public void CClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text = "";
-        }
-
-        public void BClick(object sender, RoutedEventArgs e)
-        {
-            //???
+            this.Uitkomst.Text = "";
+            this.invoer = string.Empty;
+            this.getal1 = string.Empty;
+            this.getal2 = string.Empty;
+            this.getal3 = string.Empty;
         }
 
         public void DelenClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "/";
+            getal1 = invoer;
+            operatie = '/';
+            invoer = string.Empty;
         }
 
         public void ZevenClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "7";
+            this.Uitkomst.Text = "";
+            invoer += 7;
+            this.Uitkomst.Text += invoer;
         }
 
         public void AchtClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "8";
+            this.Uitkomst.Text = "";
+            invoer += 8;
+            this.Uitkomst.Text += invoer;
         }
 
         public void NegenClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "9";
+            this.Uitkomst.Text = "";
+            invoer += 9;
+            this.Uitkomst.Text += invoer;
         }
 
         public void KeerClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "X";
+            getal1 = invoer;
+            operatie = 'X';
+            invoer = string.Empty;
         }
 
         public void VierClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "4";
+            this.Uitkomst.Text = "";
+            invoer += 4;
+            this.Uitkomst.Text += invoer;
         }
 
         public void VijfClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "5";
+            this.Uitkomst.Text = "";
+            invoer += 5;
+            this.Uitkomst.Text += invoer;
         }
 
         public void ZesClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "6";
+            this.Uitkomst.Text = "";
+            invoer += 6;
+            this.Uitkomst.Text += invoer;
         }
 
         public void MinClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "-";
+            getal1 = invoer;
+            operatie = '-';
+            invoer = string.Empty;
         }
 
         public void EenClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "1";
+            this.Uitkomst.Text = "";
+            invoer += 1;
+            this.Uitkomst.Text += invoer;
         }
 
         public void TweeClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "2";
+            this.Uitkomst.Text = "";
+            invoer += 2;
+            this.Uitkomst.Text += invoer;
         }
 
         public void DrieClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "3";
+            this.Uitkomst.Text = "";
+            invoer += 3;
+            this.Uitkomst.Text += invoer;
         }
 
         public void PlusClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "+";
+            getal1 = invoer;
+            operatie = '+';
+            invoer = string.Empty;
         }
 
         public void ModuloClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "%";
+            getal1 = invoer;
+            operatie = '%';
+            invoer = string.Empty;
         }
 
         public void NulClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "0";
+            this.Uitkomst.Text = "";
+            invoer += 0;
+            this.Uitkomst.Text += invoer;
         }
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += ",";
+            this.Uitkomst.Text = "";
+            invoer += ',';
+            this.Uitkomst.Text += invoer;
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
         {
-            
+            getal2 = invoer;
+            double nummer1, nummer2, nummer3;
+            double.TryParse(getal1, out nummer1);
+            double.TryParse(getal2, out nummer2);
+            double.TryParse(getal3, out nummer3);
+
+            if (operatie == '+')
+            {
+                resultaat = nummer1 + nummer2 + nummer3;
+                Uitkomst.Text = resultaat.ToString();
+            }
+            else if (operatie == '-')
+            {
+                resultaat = nummer1 - nummer2 - nummer3;
+                Uitkomst.Text = resultaat.ToString();
+            }
+            else if (operatie == 'X')
+            {
+                resultaat = nummer1 * nummer2 * nummer3;
+                Uitkomst.Text = resultaat.ToString();
+            }
+            else if (operatie == '/')
+            {
+                if (nummer2 != 0)
+                {
+                    resultaat = nummer1 / nummer2;
+                    Uitkomst.Text = resultaat.ToString();
+                }
+                else
+                {
+                    Uitkomst.Text = "Je kunt niet delen door 0!";
+                }
+            }
+            else if (operatie == '%')
+            {
+                resultaat = nummer1 % nummer2;
+                Uitkomst.Text = resultaat.ToString();
+            }
         }
+
+        //Bineare waarde
+        
+        private void EurDollarClick(object sender, RoutedEventArgs e)
+        {
+            //Uitkomst.Text = "Decimal:";
+            int decimalNumber = int.Parse(getal1);
+
+            int remainder;
+            string result = string.Empty;
+            while (decimalNumber > 0)
+            {
+                remainder = decimalNumber % 2;
+                decimalNumber /= 2;
+                result = remainder.ToString() + result;
+
+            }
+            Uitkomst.Text = "Binary: " + result;
+        }
+    
     }
 }

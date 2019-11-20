@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
+    <Machine>MSIBRAM</Machine>
+    <WindowsUser>bramv</WindowsUser>
+=======
     <Machine>DESKTOP-JU0OGBA</Machine>
     <WindowsUser>elfri</WindowsUser>
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +15,37 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>45bce1ea-7355-40c3-8f17-0cdf818b69c9</PackageIdentityName>
     <PackageIdentityPublisher>CN=elfri</PackageIdentityPublisher>
+<<<<<<< HEAD
+    <IntermediateOutputPath>C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\obj\ARM\Debug\</IntermediateOutputPath>
+=======
     <IntermediateOutputPath>C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\obj\ARM\Debug\</IntermediateOutputPath>
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
+    <LayoutDir>C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Core\AppxManifest.xml">
+=======
     <LayoutDir>C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Core\AppxManifest.xml">
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Rekenmachine.exe">
+=======
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Rekenmachine.exe">
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,6 +54,45 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Rekenmachine.xr.xml">
+      <PackagePath>Rekenmachine.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\MainPage.xbf">
+=======
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -71,15 +130,23 @@
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\MainPage.xbf">
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Core\Rekenmachine.exe">
+=======
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\ARM\Debug\Core\Rekenmachine.exe">
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
       <PackagePath>Rekenmachine.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
