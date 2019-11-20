@@ -1,0 +1,1 @@
+C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;arm
