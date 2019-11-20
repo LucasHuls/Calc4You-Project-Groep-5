@@ -161,7 +161,9 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            //???
+            this.Uitkomst.Text = "";
+            invoer += ',';
+            this.Uitkomst.Text += invoer;
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
