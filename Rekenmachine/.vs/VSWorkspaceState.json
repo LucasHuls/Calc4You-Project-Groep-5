@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
+    ""
+=======
     "",
     "\\Rekenmachine",
     "\\Rekenmachine\\Properties"
+>>>>>>> cc47beb9176b7b958b54990b3110c94c224d5c1b
   ],
   "SelectedNode": "\\Rekenmachine.sln",
   "PreviewInSolutionExplorer": false
