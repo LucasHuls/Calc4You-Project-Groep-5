@@ -184,12 +184,12 @@ namespace Rekenmachine
             }
             else if (operatie == '-')
             {
-                resultaat = nummer1 - nummer2;
+                resultaat = nummer1 - nummer2 - nummer3;
                 Uitkomst.Text = resultaat.ToString();
             }
             else if (operatie == 'X')
             {
-                resultaat = nummer1 * nummer2;
+                resultaat = nummer1 * nummer2 * nummer3;
                 Uitkomst.Text = resultaat.ToString();
             }
             else if (operatie == '/')
