@@ -41,14 +41,6 @@ namespace Rekenmachine
             this.getal2 = string.Empty;
         }
 
-        public void CClick(object sender, RoutedEventArgs e)
-        {
-            this.Uitkomst.Text = "";
-            this.invoer = string.Empty;
-            this.getal1 = string.Empty;
-            this.getal2 = string.Empty;
-        }
-
         public void DelenClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
@@ -220,6 +212,10 @@ namespace Rekenmachine
             }
             Uitkomst.Text = "Binary: " + result;
         }
-    
+
+        private void BinearClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
