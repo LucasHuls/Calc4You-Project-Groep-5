@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-20T09:26:49.468</Modified>
+      <Modified>2019-11-20T10:12:29.148</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
-      <Modified>2019-11-20T09:26:48.839</Modified>
+      <Modified>2019-11-20T10:12:28.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
-      <Modified>2019-11-20T09:26:49.442</Modified>
+      <Modified>2019-11-20T10:12:29.136</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
