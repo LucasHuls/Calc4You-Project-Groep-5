@@ -30,6 +30,7 @@ namespace Rekenmachine
         string invoer = string.Empty;
         string getal1 = string.Empty;
         string getal2 = string.Empty;
+        string getal3 = string.Empty;
         char operatie;
         double resultaat = 0.0;
 
@@ -39,6 +40,7 @@ namespace Rekenmachine
             this.invoer = string.Empty;
             this.getal1 = string.Empty;
             this.getal2 = string.Empty;
+            this.getal3 = string.Empty;
         }
 
         public void CClick(object sender, RoutedEventArgs e)
@@ -47,6 +49,7 @@ namespace Rekenmachine
             this.invoer = string.Empty;
             this.getal1 = string.Empty;
             this.getal2 = string.Empty;
+            this.getal3 = string.Empty;
         }
 
         public void DelenClick(object sender, RoutedEventArgs e)
@@ -164,23 +167,24 @@ namespace Rekenmachine
         public void IsClick(object sender, RoutedEventArgs e)
         {
             getal2 = invoer;
-            double nummer1, nummer2;
+            double nummer1, nummer2, nummer3;
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
+            double.TryParse(getal3, out nummer3);
 
             if (operatie == '+')
             {
-                resultaat = nummer1 + nummer2;
+                resultaat = nummer1 + nummer2 + nummer3;
                 Uitkomst.Text = resultaat.ToString();
             }
             else if (operatie == '-')
             {
-                resultaat = nummer1 - nummer2;
+                resultaat = nummer1 - nummer2 - nummer3;
                 Uitkomst.Text = resultaat.ToString();
             }
             else if (operatie == 'X')
             {
-                resultaat = nummer1 * nummer2;
+                resultaat = nummer1 * nummer2 * nummer3;
                 Uitkomst.Text = resultaat.ToString();
             }
             else if (operatie == '/')
