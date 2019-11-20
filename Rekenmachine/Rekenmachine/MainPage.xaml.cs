@@ -49,11 +49,6 @@ namespace Rekenmachine
             this.getal2 = string.Empty;
         }
 
-        public void BClick(object sender, RoutedEventArgs e)
-        {
-            //???
-        }
-
         public void DelenClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
@@ -206,5 +201,25 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
         }
+
+        //Bineare waarde
+        
+        private void EurDollarClick(object sender, RoutedEventArgs e)
+        {
+            //Uitkomst.Text = "Decimal:";
+            int decimalNumber = int.Parse(getal1);
+
+            int remainder;
+            string result = string.Empty;
+            while (decimalNumber > 0)
+            {
+                remainder = decimalNumber % 2;
+                decimalNumber /= 2;
+                result = remainder.ToString() + result;
+
+            }
+            Uitkomst.Text = "Binary: " + result;
+        }
+    
     }
 }
