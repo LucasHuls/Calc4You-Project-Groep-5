@@ -15,6 +15,8 @@
 	<br />
     <a href="https://github.com/lucashuls/ScrumGroep5"><strong>Explore the docs »</strong></a>
 	<br />
+    <a href="https://trello.com/b/TxJhCz5B/ao-scrum"><strong>Scrum-Bord »</strong></a>
+	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/tree/master/readme-bestanden"><strong>GIT Commands & Uitleg »</a>
   </p>
 </p>
