@@ -193,7 +193,7 @@ namespace Rekenmachine
                 }
                 else
                 {
-                    Uitkomst.Text = "DIV/Zero!";
+                    Uitkomst.Text = "Je kunt niet delen door 0!";
                 }
 
             }
