@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     ""
   ],
+<<<<<<< HEAD
+  "SelectedNode": "\\App.xaml.cs",
+=======
   "SelectedNode": "\\App.xaml",
+>>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
   "PreviewInSolutionExplorer": false
 }
