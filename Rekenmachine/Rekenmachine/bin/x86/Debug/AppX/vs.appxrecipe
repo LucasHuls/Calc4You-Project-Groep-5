@@ -30,21 +30,13 @@
     <AppXManifest Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.703</Modified>
-=======
-      <Modified>2019-11-20T08:11:15.673</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:07.965</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.220</Modified>
-=======
-      <Modified>2019-11-20T08:11:14.991</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:07.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -94,23 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
       <PackagePath>Rekenmachine.xr.xml</PackagePath>
-      <Modified>2019-11-19T10:46:35.202</Modified>
+      <Modified>2019-11-20T08:23:06.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.050</Modified>
-=======
-      <Modified>2019-11-20T08:11:14.820</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:06.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.051</Modified>
-=======
-      <Modified>2019-11-20T08:11:14.820</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:06.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -118,19 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.330</Modified>
-=======
-      <Modified>2019-11-19T14:46:14.855</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:07.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-20T07:49:54.683</Modified>
-=======
-      <Modified>2019-11-20T08:11:15.664</Modified>
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+      <Modified>2019-11-20T08:23:07.953</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

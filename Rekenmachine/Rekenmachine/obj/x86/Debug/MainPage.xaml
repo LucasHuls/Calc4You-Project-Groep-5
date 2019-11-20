@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Margin="0,0,0,236">
         <TextBox x:ConnectionId='2' x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
         <Button x:ConnectionId='3' x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                />
         <Button x:ConnectionId='4' x:Name="C" Content="C" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87"               />
