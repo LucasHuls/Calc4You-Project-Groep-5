@@ -147,7 +147,9 @@ namespace Rekenmachine
 
         public void ModuloClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += "%";
+            getal1 = invoer;
+            operatie = '%';
+            invoer = string.Empty;
         }
 
         public void NulClick(object sender, RoutedEventArgs e)
@@ -159,7 +161,7 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            Uitkomst.Text += ",";
+            //???
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
@@ -195,7 +197,11 @@ namespace Rekenmachine
                 {
                     Uitkomst.Text = "Je kunt niet delen door 0!";
                 }
-
+            }
+            else if (operatie == '%')
+            {
+                resultaat = nummer1 % nummer2;
+                Uitkomst.Text = resultaat.ToString();
             }
         }
     }
