@@ -11,7 +11,7 @@
     <Grid Margin="0,0,0,236">
         <TextBox x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
         <Button x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="CEClick"/>
-        <Button x:Name="C" Content="C" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="CClick"/>
+        <Button x:Name="Binair" Content="Binair" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="BinearClick"/>
         <Button x:Name="EurDollar" Content="EUR/DOL" Margin="180,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="EurDollarClick"/>
         <Button x:Name="Delen" Content="/" Margin="270,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="DelenClick"/>
         <Button x:Name="Zeven" Content="7" Margin="0,153,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="ZevenClick"/>
