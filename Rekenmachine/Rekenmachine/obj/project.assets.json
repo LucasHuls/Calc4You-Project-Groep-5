@@ -8151,25 +8151,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bramv\\.nuget\\packages\\": {},
+    "C:\\Users\\elfri\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bramv\\Documents\\ScrumGroep5\\Calc4You-Groep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
-      "projectPath": "C:\\Users\\bramv\\Documents\\ScrumGroep5\\Calc4You-Groep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
-      "packagesPath": "C:\\Users\\bramv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bramv\\Documents\\ScrumGroep5\\Calc4You-Groep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+      "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\bramv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
