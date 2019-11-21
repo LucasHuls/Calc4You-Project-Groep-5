@@ -26,8 +26,7 @@
         <Button x:ConnectionId='16' x:Name="Twee" Content="2" Margin="90,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
         <Button x:ConnectionId='17' x:Name="Drie" Content="3" Margin="180,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
         <Button x:ConnectionId='18' x:Name="Plus" Content="+" Margin="270,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
-        <Button x:ConnectionId='19' x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41
-                "                    />
+        <Button x:ConnectionId='19' x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41"                    />
         <Button x:ConnectionId='20' x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                 />
         <Button x:ConnectionId='21' x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                   />
         <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                />
