@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Rekenmachine"
+    "\\Rekenmachine",
+    "\\Rekenmachine\\Rekenmachine",
+    "\\Rekenmachine\\Rekenmachine\\Assets"
   ],
   "SelectedNode": "\\Rekenmachine\\Rekenmachine.sln",
   "PreviewInSolutionExplorer": false
