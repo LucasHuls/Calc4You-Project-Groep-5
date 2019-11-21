@@ -8,30 +8,47 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBox x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
-        <Button x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="CEClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Binair" Content="Bin" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="41" Click="BinearClick" HorizontalAlignment="Left"/>
-        <Button x:Name="EurDollar" Content="EUR/DOL" Margin="180,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="EurDollarClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Delen" Content="/" Margin="270,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="DelenClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Zeven" Content="7" Margin="0,153,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="ZevenClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Acht" Content="8" Margin="90,153,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="AchtClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Negen" Content="9" Margin="180,153,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="NegenClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Keer" Content="X" Margin="270,153,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="KeerClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Vier" Content="4" Margin="0,207,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="VierClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Vijf" Content="5" Margin="90,207,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="VijfClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Zes" Content="6" Margin="180,207,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="ZesClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Min" Content="-" Margin="270,207,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="MinClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Een" Content="1" Margin="0,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="EenClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Twee" Content="2" Margin="90,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="TweeClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Drie" Content="3" Margin="180,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="DrieClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Plus" Content="+" Margin="270,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="PlusClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41" Click="ModuloClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="NulClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="KommaClick" HorizontalAlignment="Left"/>
-        <Button x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="IsClick" HorizontalAlignment="Left"/>
-        <Button x:Name="PlusMin" Content="+/-" Margin="45,315,0,0" VerticalAlignment="Top" Height="49" Width="41" Click="PlusMinClick" HorizontalAlignment="Left"/>
-        <TextBox x:Name="Som" IsReadOnly="True" HorizontalAlignment="Left" Margin="0,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="360" TextAlignment="Right"/>
-        <Button x:Name="Hexadecimaal" Content="Hx" Margin="135,100,0,0" VerticalAlignment="Top" Height="49" Width="41" Click="HexadecimaalClick"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="340*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="48" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
+        <Button x:Name="CE" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="CE" VerticalAlignment="Stretch" Click="CEClick" HorizontalAlignment="Stretch" MinHeight="20"/>
+        <Button x:Name="Binair" Grid.Column="1" Margin="0,3,3,0" Content="Bin" VerticalAlignment="Stretch" Click="BinearClick" HorizontalAlignment="Stretch" Grid.Row="3"/>
+        <Button x:Name="EurDollar" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="3" Grid.Column="2"/>
+        <Button x:Name="Delen" Grid.Column="3" Margin="0,3,3,0" Content="/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="DelenClick" Grid.RowSpan="2" Grid.Row="2"/>
+        <Button x:Name="Zeven" Grid.Column="0" Margin="0,3,3,0" Content="7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ZevenClick" Grid.Row="4"/>
+        <Button x:Name="Acht" Grid.Column="1" Margin="0,3,3,0" Content="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="AchtClick" Grid.Row="4"/>
+        <Button x:Name="Negen" Grid.Column="2" Margin="0,3,3,0" Content="9" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="NegenClick" Grid.Row="4"/>
+        <Button x:Name="Keer" Content="X" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="KeerClick" Grid.Row="4" Grid.Column="4"/>
+        <Button x:Name="Vier" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="4" Click="VierClick" Grid.Row="5"/>
+        <Button x:Name="Vijf" Grid.Column="1" Margin="0,3,3,0" Content="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="VijfClick" Grid.Row="5"/>
+        <Button x:Name="Zes" Content="6" Margin="0,3,3,0" Click="ZesClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="5"/>
+        <Button x:Name="Min" Content="-" Margin="0,3,3,0" Click="MinClick" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="3" Grid.Row="5"/>
+        <Button x:Name="Een" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="1" VerticalAlignment="Stretch" Click="EenClick" Grid.Row="6"/>
+        <Button x:Name="Twee" Grid.Column="1" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="2" VerticalAlignment="Stretch" Click="TweeClick" Grid.Row="6"/>
+        <Button x:Name="Drie" Grid.Column="2" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="3" VerticalAlignment="Stretch" Click="DrieClick" Grid.Row="6"/>
+        <Button x:Name="Plus" Content="+" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="PlusClick" Grid.Column="3" Grid.Row="6"/>
+        <Button x:Name="Modulo" Content="%" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="ModuloClick" Grid.Row="2"/>
+        <Button x:Name="Nul" Content="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Click="NulClick" Grid.Row="7"/>
+        <Button x:Name="Komma" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
+        <Button x:Name="Is" Content="=" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
+        <Button x:Name="PlusMin" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="+/-" Click="PlusMinClick" Grid.Row="7"/>
+        <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" TextWrapping="Wrap" TextAlignment="Right"/>
+        <Button x:Name="Hexadecimaal" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexadecimaalClick" Grid.Row="2" Grid.Column="1"/>
     </Grid>
 </Page>

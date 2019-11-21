@@ -8151,24 +8151,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\ljhul\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\jover\\.nuget\\packages\\": {},
+>>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
       "projectPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "packagesPath": "C:\\Users\\ljhul\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
+=======
+      "projectUniqueName": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "projectName": "Rekenmachine",
+      "projectPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\jover\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\jover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
