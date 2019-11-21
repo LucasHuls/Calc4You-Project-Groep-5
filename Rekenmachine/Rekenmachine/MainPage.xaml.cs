@@ -164,10 +164,10 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
             this.Som.Text += ",";
-            invoer += ',';
-            this.Uitkomst.Text += invoer;
+            invoer += '.';
+            this.Uitkomst.Text += ",";
+            Convert.ToDouble(invoer);
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
@@ -214,6 +214,10 @@ namespace Rekenmachine
         
         private void EurDollarClick(object sender, RoutedEventArgs e)
         {
+            double euro = Convert.ToInt32(invoer);
+            euro *= 1.1083;
+            Uitkomst.Text = euro.ToString(); 
+
         }
 
         private void BinearClick(object sender, RoutedEventArgs e)
@@ -225,6 +229,12 @@ namespace Rekenmachine
         private void PlusMinClick(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void HexadecimaalClick(object sender, RoutedEventArgs e)
+        {
+            var hexadecimaal = Convert.ToString(Convert.ToInt32(invoer), 16);
+            Uitkomst.Text = Convert.ToString(hexadecimaal);
         }
     }
 }
