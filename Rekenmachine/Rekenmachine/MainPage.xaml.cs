@@ -214,6 +214,10 @@ namespace Rekenmachine
         
         private void EurDollarClick(object sender, RoutedEventArgs e)
         {
+            double euro = Convert.ToInt32(invoer);
+            euro *= 1.1083;
+            Uitkomst.Text = euro.ToString(); 
+
         }
 
         private void BinearClick(object sender, RoutedEventArgs e)
