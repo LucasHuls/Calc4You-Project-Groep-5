@@ -2,8 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Machine>MSIBRAM</Machine>
     <WindowsUser>bramv</WindowsUser>
+=======
+    <Machine>JULIAN-LAPTOP</Machine>
+    <WindowsUser>Eigenaar</WindowsUser>
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
 =======
     <Machine>JULIAN-LAPTOP</Machine>
     <WindowsUser>Eigenaar</WindowsUser>
@@ -20,6 +25,9 @@
 =======
     <PackageIdentityPublisher>CN=elfri</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
+<<<<<<< HEAD
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
+=======
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -27,10 +35,17 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <LayoutDir>C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
+=======
+    <LayoutDir>C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
 =======
     <LayoutDir>C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
@@ -43,7 +58,11 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
+=======
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
 =======
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
@@ -55,6 +74,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
@@ -105,6 +125,11 @@
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+=======
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -139,6 +164,9 @@
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
+<<<<<<< HEAD
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
+=======
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
@@ -146,15 +174,21 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
 =======
+=======
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
+<<<<<<< HEAD
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
+=======
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
       <PackagePath>Rekenmachine.exe</PackagePath>
     </AppxPackagedFile>

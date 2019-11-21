@@ -131,6 +131,7 @@ C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\obj\x
 C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml
@@ -176,6 +177,8 @@ C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Re
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 =======
+=======
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml
@@ -220,4 +223,7 @@ C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachi
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+<<<<<<< HEAD
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
+=======
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2

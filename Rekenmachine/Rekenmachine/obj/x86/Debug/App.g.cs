@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿#pragma checksum "C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\App.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "EDDD2B360571CC6214B417293042630A"
+=======
+﻿#pragma checksum "C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\App.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "EDDD2B360571CC6214B417293042630A"
+>>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
 =======
 ﻿#pragma checksum "C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\App.xaml" "{406ea660-64cf-4c82-b6f0-42d48172a799}" "EDDD2B360571CC6214B417293042630A"
 >>>>>>> a5d5e04ce7fa84577966273ba443bbd8e797ebf2
