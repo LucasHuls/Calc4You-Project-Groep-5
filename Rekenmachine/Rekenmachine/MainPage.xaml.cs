@@ -210,7 +210,6 @@ namespace Rekenmachine
                 result = remainder.ToString() + result;
 
             }
-            Uitkomst.Text = "Binary: " + result;
         }
 
         private void BinearClick(object sender, RoutedEventArgs e)
