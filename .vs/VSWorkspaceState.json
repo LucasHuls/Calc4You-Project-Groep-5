@@ -2,8 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\Rekenmachine",
+<<<<<<< HEAD
     "\\Rekenmachine\\Rekenmachine"
   ],
   "SelectedNode": "\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+=======
+    "\\Rekenmachine\\Rekenmachine",
+    "\\Rekenmachine\\Rekenmachine\\Assets"
+  ],
+  "SelectedNode": "\\Rekenmachine\\Rekenmachine.sln",
+>>>>>>> 1f855d800a96878052b5124914941e7a89016fab
   "PreviewInSolutionExplorer": false
 }
