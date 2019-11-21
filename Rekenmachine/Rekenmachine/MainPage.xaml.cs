@@ -39,11 +39,13 @@ namespace Rekenmachine
             this.invoer = string.Empty;
             this.getal1 = string.Empty;
             this.getal2 = string.Empty;
+            this.Som.Text = "";
         }
 
         public void DelenClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
+            this.Som.Text += "/";
             operatie = '/';
             invoer = string.Empty;
         }
@@ -51,6 +53,7 @@ namespace Rekenmachine
         public void ZevenClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "7";
             invoer += 7;
             this.Uitkomst.Text += invoer;
         }
@@ -58,6 +61,7 @@ namespace Rekenmachine
         public void AchtClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "8";
             invoer += 8;
             this.Uitkomst.Text += invoer;
         }
@@ -65,6 +69,7 @@ namespace Rekenmachine
         public void NegenClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "9";
             invoer += 9;
             this.Uitkomst.Text += invoer;
         }
@@ -72,6 +77,7 @@ namespace Rekenmachine
         public void KeerClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
+            this.Som.Text += "X";
             operatie = 'X';
             invoer = string.Empty;
         }
@@ -79,6 +85,7 @@ namespace Rekenmachine
         public void VierClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "4";
             invoer += 4;
             this.Uitkomst.Text += invoer;
         }
@@ -86,6 +93,7 @@ namespace Rekenmachine
         public void VijfClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "5";
             invoer += 5;
             this.Uitkomst.Text += invoer;
         }
@@ -93,6 +101,7 @@ namespace Rekenmachine
         public void ZesClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "6";
             invoer += 6;
             this.Uitkomst.Text += invoer;
         }
@@ -100,6 +109,7 @@ namespace Rekenmachine
         public void MinClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
+            this.Som.Text += "-";
             operatie = '-';
             invoer = string.Empty;
         }
@@ -107,6 +117,7 @@ namespace Rekenmachine
         public void EenClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "1";
             invoer += 1;
             this.Uitkomst.Text += invoer;
         }
@@ -114,6 +125,7 @@ namespace Rekenmachine
         public void TweeClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "2";
             invoer += 2;
             this.Uitkomst.Text += invoer;
         }
@@ -121,6 +133,7 @@ namespace Rekenmachine
         public void DrieClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "3";
             invoer += 3;
             this.Uitkomst.Text += invoer;
         }
@@ -128,6 +141,7 @@ namespace Rekenmachine
         public void PlusClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
+            this.Som.Text += "+";
             operatie = '+';
             invoer = string.Empty;
         }
@@ -135,6 +149,7 @@ namespace Rekenmachine
         public void ModuloClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
+            this.Som.Text += "%";
             operatie = '%';
             invoer = string.Empty;
         }
@@ -142,6 +157,7 @@ namespace Rekenmachine
         public void NulClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += "0";
             invoer += 0;
             this.Uitkomst.Text += invoer;
         }
@@ -149,6 +165,7 @@ namespace Rekenmachine
         public void KommaClick(object sender, RoutedEventArgs e)
         {
             this.Uitkomst.Text = "";
+            this.Som.Text += ",";
             invoer += ',';
             this.Uitkomst.Text += invoer;
         }
@@ -159,6 +176,7 @@ namespace Rekenmachine
             double nummer1, nummer2;
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
+            this.Som.Text = "";
 
             if (operatie == '+')
             {

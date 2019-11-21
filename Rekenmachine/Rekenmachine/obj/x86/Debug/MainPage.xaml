@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:ConnectionId='2' x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
+        <TextBox x:ConnectionId='2' x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
         <Button x:ConnectionId='3' x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                />
         <Button x:ConnectionId='4' x:Name="Binair" Content="Binair" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                    />
         <Button x:ConnectionId='5' x:Name="EurDollar" Content="EUR/DOL" Margin="180,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                       />
@@ -26,11 +26,13 @@
         <Button x:ConnectionId='16' x:Name="Twee" Content="2" Margin="90,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
         <Button x:ConnectionId='17' x:Name="Drie" Content="3" Margin="180,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
         <Button x:ConnectionId='18' x:Name="Plus" Content="+" Margin="270,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  />
-        <Button x:ConnectionId='19' x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                    />
+        <Button x:ConnectionId='19' x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41
+                "                    />
         <Button x:ConnectionId='20' x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                 />
         <Button x:ConnectionId='21' x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                   />
         <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                />
-
+        <Button x:ConnectionId='23' x:Name="PlusMin" Content="+/-" Margin="45,314,0,0" VerticalAlignment="Top" Height="49" Width="41"                     />
+        <TextBox x:ConnectionId='24' x:Name="Som" IsReadOnly="True" HorizontalAlignment="Left" Margin="0,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="360" TextAlignment="Right"/>
     </Grid>
 </Page>
 
