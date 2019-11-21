@@ -1,4 +1,8 @@
 Schermvullend
 Naar Azure overgaan
 Repo in azure aanmaken
+<<<<<<< HEAD
 Edit: Test
+=======
+Dikke fissa huts
+>>>>>>> cdb1c960f3ef0bb21f8bb524d7c73716041bebec
