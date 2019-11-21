@@ -30,7 +30,7 @@
         <Button x:ConnectionId='20' x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                 />
         <Button x:ConnectionId='21' x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                   />
         <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                />
-        <Button x:ConnectionId='23' x:Name="PlusMin" Content="+/-" Margin="45,314,0,0" VerticalAlignment="Top" Height="49" Width="41"                     />
+        <Button x:ConnectionId='23' x:Name="PlusMin" Content="+/-" Margin="45,315,0,0" VerticalAlignment="Top" Height="49" Width="41"                     />
         <TextBox x:ConnectionId='24' x:Name="Som" IsReadOnly="True" HorizontalAlignment="Left" Margin="0,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="360" TextAlignment="Right"/>
     </Grid>
 </Page>
