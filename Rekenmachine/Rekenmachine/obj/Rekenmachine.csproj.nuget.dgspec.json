@@ -1,27 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+    "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectUniqueName": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
         "projectName": "Rekenmachine",
-        "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
-        "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
+        "projectPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\ljhul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
+=======
+    "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectName": "Rekenmachine",
+        "projectPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\jover\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+<<<<<<< HEAD
+          "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\jover\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"
