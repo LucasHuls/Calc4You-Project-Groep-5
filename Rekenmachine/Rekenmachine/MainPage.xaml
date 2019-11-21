@@ -26,10 +26,12 @@
         <Button x:Name="Twee" Content="2" Margin="90,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="TweeClick"/>
         <Button x:Name="Drie" Content="3" Margin="180,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="DrieClick"/>
         <Button x:Name="Plus" Content="+" Margin="270,261,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="PlusClick"/>
-        <Button x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="ModuloClick"/>
+        <Button x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41
+                " Click="ModuloClick"/>
         <Button x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="NulClick"/>
         <Button x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="KommaClick"/>
         <Button x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="IsClick"/>
+        <Button x:Name="PlusMin" Content="+/-" Margin="45,314,0,0" VerticalAlignment="Top" Height="49" Width="41" Click="PlusMinClick"/>
 
     </Grid>
 </Page>

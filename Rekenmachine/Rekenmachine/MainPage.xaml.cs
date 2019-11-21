@@ -193,29 +193,20 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
         }
-
-        //Bineare waarde
         
         private void EurDollarClick(object sender, RoutedEventArgs e)
         {
-            //Uitkomst.Text = "Decimal:";
-            int decimalNumber = int.Parse(getal1);
-
-            int remainder;
-            string result = string.Empty;
-            while (decimalNumber > 0)
-            {
-                remainder = decimalNumber % 2;
-                decimalNumber /= 2;
-                result = remainder.ToString() + result;
-
-            }
         }
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
             var binair = Convert.ToString(Convert.ToInt32(invoer), 2);
             Uitkomst.Text = Convert.ToString(binair);
+        }
+
+        private void PlusMinClick(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
