@@ -226,5 +226,11 @@ namespace Rekenmachine
         {
 
         }
+
+        private void HexadecimaalClick(object sender, RoutedEventArgs e)
+        {
+            var hexadecimaal = Convert.ToString(Convert.ToInt32(invoer), 16);
+            Uitkomst.Text = Convert.ToString(hexadecimaal);
+        }
     }
 }
