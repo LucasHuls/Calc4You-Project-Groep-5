@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Margin="0,0,0,236">
+    <Grid>
         <TextBox x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
         <Button x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="CEClick"/>
         <Button x:Name="Binair" Content="Binair" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87" Click="BinearClick"/>
