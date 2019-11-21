@@ -6,10 +6,14 @@
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ljhul\.nuget\packages\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
 =======
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\jover\.nuget\packages\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\elfri\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\</NuGetPackageFolders>
+>>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.3.1</NuGetToolVersion>
   </PropertyGroup>
