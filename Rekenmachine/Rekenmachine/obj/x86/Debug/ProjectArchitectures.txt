@@ -1,1 +1,1 @@
-D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;x86
+C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;x86

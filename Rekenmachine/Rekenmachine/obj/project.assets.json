@@ -8152,16 +8152,31 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
     "C:\\Users\\ljhul\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\jover\\.nuget\\packages\\": {},
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
+<<<<<<< HEAD
+=======
+=======
+    "C:\\Users\\elfri\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+>>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
       "projectUniqueName": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
       "projectPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
@@ -8174,18 +8189,38 @@
       "packagesPath": "C:\\Users\\jover\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
+<<<<<<< HEAD
+=======
+=======
+      "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "projectName": "Rekenmachine",
+      "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
         "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\jover\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
