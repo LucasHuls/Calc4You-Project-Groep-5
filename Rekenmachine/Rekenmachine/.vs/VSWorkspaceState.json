@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     ""
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\MainPage.xaml.cs",
+=======
+  "SelectedNode": "\\Package.appxmanifest",
+>>>>>>> 1783edcb01d7ec6a1a9e5cc65c5457217249366a
   "PreviewInSolutionExplorer": false
 }

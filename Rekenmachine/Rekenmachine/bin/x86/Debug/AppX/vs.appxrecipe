@@ -30,13 +30,21 @@
     <AppXManifest Include="D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
+      <Modified>2019-11-21T16:15:19.481</Modified>
+=======
       <Modified>2019-11-21T18:44:55.755</Modified>
+>>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-21T16:15:18.582</Modified>
+=======
       <Modified>2019-11-21T18:44:54.862</Modified>
+>>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -100,11 +108,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-21T16:15:18.379</Modified>
+=======
       <Modified>2019-11-21T18:44:54.705</Modified>
+>>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-21T16:15:18.379</Modified>
+=======
       <Modified>2019-11-21T18:44:54.705</Modified>
+>>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -116,7 +132,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-21T16:15:19.481</Modified>
+=======
       <Modified>2019-11-21T18:44:55.743</Modified>
+>>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
