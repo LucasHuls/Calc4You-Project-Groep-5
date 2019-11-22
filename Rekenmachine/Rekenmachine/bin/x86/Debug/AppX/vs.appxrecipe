@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-JU0OGBA</Machine>
-    <WindowsUser>elfri</WindowsUser>
+    <Machine>LAPTOP-1QAILB3P</Machine>
+    <WindowsUser>ljhul</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>45bce1ea-7355-40c3-8f17-0cdf818b69c9</PackageIdentityName>
     <PackageIdentityPublisher>CN=Scrum Groep 5</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>171DC5C8537193400AA70667B4A73F6C86B2CC087CB432FDC2BC47CE7595F1E4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>45bce1ea-7355-40c3-8f17-0cdf818b69c9_1.0.0.0_x86__jbyajz14c4gjy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>45bce1ea-7355-40c3-8f17-0cdf818b69c9_jbyajz14c4gjy!App</RegisteredUserModeAppID>
@@ -27,88 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2019-11-22T08:10:55.794</Modified>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-      <Modified>2019-11-21T16:15:19.481</Modified>
-=======
-      <Modified>2019-11-21T18:44:55.755</Modified>
->>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-      <Modified>2019-11-21T15:08:50.318</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:50.318</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:50.318</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
->>>>>>> 746103c6c773fc3574b0178f87ef6a5ee6330e6c
+      <Modified>2019-11-22T08:29:27.614</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-22T08:10:55.391</Modified>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-      <Modified>2019-11-21T16:15:18.582</Modified>
-=======
-      <Modified>2019-11-21T18:44:54.862</Modified>
->>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-      <Modified>2019-11-21T15:08:48.736</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.736</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.736</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
->>>>>>> 746103c6c773fc3574b0178f87ef6a5ee6330e6c
+      <Modified>2019-11-22T08:29:24.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -118,185 +46,77 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.397</Modified>
+      <Modified>2019-11-22T08:24:35.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.398</Modified>
+      <Modified>2019-11-22T08:24:35.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.402</Modified>
+      <Modified>2019-11-22T08:24:35.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-11-22T08:02:02.393</Modified>
+      <Modified>2019-11-22T08:24:35.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.397</Modified>
+      <Modified>2019-11-22T08:24:35.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.397</Modified>
+      <Modified>2019-11-22T08:24:35.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.398</Modified>
+      <Modified>2019-11-22T08:24:35.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.398</Modified>
+      <Modified>2019-11-22T08:24:35.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-22T08:02:02.401</Modified>
+      <Modified>2019-11-22T08:24:35.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-11-22T08:02:02.403</Modified>
+      <Modified>2019-11-22T08:24:35.490</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
       <PackagePath>Rekenmachine.xr.xml</PackagePath>
-      <Modified>2019-11-22T08:07:09.971</Modified>
+      <Modified>2019-11-22T08:29:23.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-22T08:10:55.260</Modified>
+      <Modified>2019-11-22T08:29:23.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-22T08:10:55.260</Modified>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-      <Modified>2019-11-21T16:15:18.379</Modified>
-=======
-      <Modified>2019-11-21T18:44:54.705</Modified>
->>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-      <Modified>2019-11-21T16:15:18.379</Modified>
-=======
-      <Modified>2019-11-21T18:44:54.705</Modified>
->>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:48.602</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
->>>>>>> 746103c6c773fc3574b0178f87ef6a5ee6330e6c
+      <Modified>2019-11-22T08:29:23.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-22T08:07:10.250</Modified>
+      <Modified>2019-11-22T08:29:25.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
+    <AppxPackagedFile Include="C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-22T08:10:55.792</Modified>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-      <Modified>2019-11-21T16:15:19.481</Modified>
-=======
-      <Modified>2019-11-21T18:44:55.743</Modified>
->>>>>>> b4ef27017536fa135f1362bcdc880d4d587515e0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-      <Modified>2019-11-21T15:08:50.307</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:50.307</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
-=======
-=======
-      <Modified>2019-11-21T15:08:50.307</Modified>
->>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
->>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
->>>>>>> 746103c6c773fc3574b0178f87ef6a5ee6330e6c
+      <Modified>2019-11-22T08:29:27.588</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
