@@ -55,12 +55,19 @@
     <AppXManifest Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
+      <Modified>2019-11-22T10:14:02.056</Modified>
+=======
       <Modified>2019-11-22T10:15:40.142</Modified>
+>>>>>>> 075612f5d9f84528f0d47139b149c7e24ed3e0c7
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T10:14:01.601</Modified>
+=======
       <Modified>2019-11-22T10:15:39.189</Modified>
 >>>>>>> 075612f5d9f84528f0d47139b149c7e24ed3e0c7
     </AppxPackagedFile>
@@ -187,6 +194,13 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T10:14:01.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-11-22T10:14:01.467</Modified>
+=======
       <Modified>2019-11-22T10:15:38.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
@@ -213,6 +227,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T10:14:02.053</Modified>
+=======
       <Modified>2019-11-22T10:15:40.127</Modified>
 >>>>>>> 075612f5d9f84528f0d47139b149c7e24ed3e0c7
     </AppxPackagedFile>
