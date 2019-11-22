@@ -30,13 +30,29 @@
     <AppXManifest Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:35.200</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:27.378</Modified>
+=======
+      <Modified>2019-11-22T08:29:27.614</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:33.866</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.746</Modified>
+=======
+      <Modified>2019-11-22T08:29:24.317</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -96,15 +112,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
       <PackagePath>Rekenmachine.xr.xml</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-21T12:58:56.702</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.420</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.926</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:33.636</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:30:34.081</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.961</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:33.636</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.434</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.961</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -112,11 +152,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:34.252</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:30:34.663</Modified>
+=======
+      <Modified>2019-11-22T08:29:25.093</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2019-11-22T08:45:35.185</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:27.372</Modified>
+=======
+      <Modified>2019-11-22T08:29:27.588</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
