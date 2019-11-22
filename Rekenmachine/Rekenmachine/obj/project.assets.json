@@ -8153,19 +8153,28 @@
   "packageFolders": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
+=======
 >>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
     "C:\\Users\\ljhul\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\jover\\.nuget\\packages\\": {},
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
 =======
     "C:\\Users\\elfri\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
 >>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
+<<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
+=======
 >>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
@@ -8174,8 +8183,11 @@
     "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
+=======
 >>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
       "projectUniqueName": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
@@ -8190,7 +8202,10 @@
       "outputPath": "D:\\Projects\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
 >>>>>>> ebed4ca55e69a21a188243b23f0f9c9e98570db8
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
 =======
       "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
@@ -8198,6 +8213,9 @@
       "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\ScrumGroep5\\Rekenmachine\\Rekenmachine\\obj\\",
 >>>>>>> parent of ebed4ca... RESPONSIVE LAYOUT?? STOER
+<<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
+=======
 >>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -8208,8 +8226,11 @@
       "configFilePaths": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
+=======
 >>>>>>> 11b61974a08f90fc1ff3821b070d2fb0643c570a
         "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
