@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectName": "Rekenmachine",
+        "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+=======
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectName": "Rekenmachine",
+        "projectPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+          "C:\\Users\\Eigenaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

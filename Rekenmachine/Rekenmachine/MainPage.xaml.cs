@@ -228,7 +228,14 @@ namespace Rekenmachine
 
         private void PlusMinClick(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            double plusMin = Convert.ToDouble(invoer);
+            plusMin -= plusMin * 2;
+            invoer = Convert.ToString(plusMin);
+            Uitkomst.Text = invoer;
+>>>>>>> 666ed4c884a10a1f9a6d12dd81344046791cd10d
         }
     }
 }
