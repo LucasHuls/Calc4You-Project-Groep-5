@@ -22,9 +22,10 @@
 </p>
 
 
-| Laadscherm | Design |
-| :---         |     :---:      |          ---: |
+| Left-aligned | Center-aligned |
+| :---         |     :---:      |
 | <img src="readme-bestanden/laad-scherm.png" alt="Laadscherm">   | <img src="readme-bestanden/design.png" alt="Design">     |
+| git diff     | git diff       |
 
 ## Rekenmachine
 
