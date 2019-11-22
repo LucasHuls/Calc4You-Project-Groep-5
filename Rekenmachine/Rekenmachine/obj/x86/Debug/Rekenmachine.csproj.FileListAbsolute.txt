@@ -44,7 +44,6 @@ C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Reken
 C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 <<<<<<< HEAD
 =======
-=======
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.csprojAssemblyReference.cache
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App.g.i.cs
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App.g.cs
