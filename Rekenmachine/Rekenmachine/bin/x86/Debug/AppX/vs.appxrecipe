@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <Machine>DESKTOP-JU0OGBA</Machine>
     <WindowsUser>elfri</WindowsUser>
+=======
+    <Machine>JULIAN-LAPTOP</Machine>
+    <WindowsUser>Eigenaar</WindowsUser>
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +15,11 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>45bce1ea-7355-40c3-8f17-0cdf818b69c9</PackageIdentityName>
     <PackageIdentityPublisher>CN=Scrum Groep 5</PackageIdentityPublisher>
+<<<<<<< HEAD
     <IntermediateOutputPath>C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
+=======
+    <IntermediateOutputPath>C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\</IntermediateOutputPath>
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +27,11 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
     <LayoutDir>C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
+=======
+    <LayoutDir>C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\AppX</LayoutDir>
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     <RegisteredManifestChecksum>171DC5C8537193400AA70667B4A73F6C86B2CC087CB432FDC2BC47CE7595F1E4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>45bce1ea-7355-40c3-8f17-0cdf818b69c9_1.0.0.0_x86__jbyajz14c4gjy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>45bce1ea-7355-40c3-8f17-0cdf818b69c9_jbyajz14c4gjy!App</RegisteredUserModeAppID>
@@ -27,6 +40,7 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AppXManifest Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -37,6 +51,34 @@
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
       <Modified>2019-11-22T08:52:10.494</Modified>
+=======
+    <AppXManifest Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:35.200</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:27.378</Modified>
+=======
+      <Modified>2019-11-22T08:29:27.614</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
+      <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:33.866</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.746</Modified>
+=======
+      <Modified>2019-11-22T08:29:24.317</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,6 +88,7 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -105,11 +148,97 @@
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2019-11-22T08:48:15.522</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-11-20T08:56:41.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-22T08:36:16.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-11-20T08:56:41.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
+      <PackagePath>Rekenmachine.xr.xml</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-21T12:58:56.702</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.420</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.926</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:33.636</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:30:34.081</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.961</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:33.636</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:26.434</Modified>
+=======
+      <Modified>2019-11-22T08:29:23.961</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2019-11-22T08:41:12.952</Modified>
@@ -117,6 +246,31 @@
     <AppxPackagedFile Include="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
       <Modified>2019-11-22T08:52:10.866</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:34.252</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:30:34.663</Modified>
+=======
+      <Modified>2019-11-22T08:29:25.093</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
+      <PackagePath>Rekenmachine.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:45:35.185</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2019-11-22T08:36:27.372</Modified>
+=======
+      <Modified>2019-11-22T08:29:27.588</Modified>
+>>>>>>> e2a52de63d1b1e4c86c7c2384c0170e976ae22aa
+>>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
