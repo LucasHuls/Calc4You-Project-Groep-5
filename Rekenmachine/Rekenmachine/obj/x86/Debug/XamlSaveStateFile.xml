@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?><XamlCompilerSaveState><ReferenceAssemblyList><LocalAssembly PathName="c:\users\bramv\documents\scrumgroep5\calc4you-groep5\calc4you-project-groep-5\rekenmachine\rekenmachine\obj\x86\debug\intermediatexaml\rekenmachine.exe" HashGuid="32ce6e5e-0c80-8d51-06b9-1dc29095f8ec" /></ReferenceAssemblyList><XamlSourceFileDataList><XamlSourceFileData XamlFileName="App.xaml" ClassFullName="Rekenmachine.App" GeneratedCodePathPrefix="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App" XamlFileTimeAtLastCompileInTicks="637099415599104170" HasBoundEventAssignments="False" /><XamlSourceFileData XamlFileName="MainPage.xaml" ClassFullName="Rekenmachine.MainPage" GeneratedCodePathPrefix="C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\MainPage" XamlFileTimeAtLastCompileInTicks="637100101907432934" HasBoundEventAssignments="False" /></XamlSourceFileDataList></XamlCompilerSaveState>
 =======
 <<<<<<< HEAD
@@ -15,3 +16,6 @@
 >>>>>>> af04ef674d7fe4fa082268eeb04c98d6117e39e0
 >>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
 >>>>>>> 666ed4c884a10a1f9a6d12dd81344046791cd10d
+=======
+﻿<?xml version="1.0" encoding="utf-8"?><XamlCompilerSaveState><ReferenceAssemblyList /><XamlSourceFileDataList><XamlSourceFileData XamlFileName="App.xaml" ClassFullName="" GeneratedCodePathPrefix="C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App" XamlFileTimeAtLastCompileInTicks="0" HasBoundEventAssignments="False" /></XamlSourceFileDataList></XamlCompilerSaveState>
+>>>>>>> 1994502f631265ce1b0791b1d38676c778a3248d

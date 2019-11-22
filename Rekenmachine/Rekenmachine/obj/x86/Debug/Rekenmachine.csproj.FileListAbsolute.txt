@@ -43,7 +43,10 @@ C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Reken
 C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1994502f631265ce1b0791b1d38676c778a3248d
 =======
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.csprojAssemblyReference.cache
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App.g.i.cs
@@ -54,6 +57,7 @@ C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Re
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\MainPage.xbf
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\XamlSaveStateFile.xml
 >>>>>>> 746103c6c773fc3574b0178f87ef6a5ee6330e6c
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf
@@ -92,6 +96,8 @@ C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Re
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 =======
+=======
+>>>>>>> 1994502f631265ce1b0791b1d38676c778a3248d
 C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\Rekenmachine.csprojAssemblyReference.cache
 C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App.g.i.cs
 C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\App.g.cs
@@ -181,4 +187,7 @@ C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachi
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 >>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
+<<<<<<< HEAD
 >>>>>>> 666ed4c884a10a1f9a6d12dd81344046791cd10d
+=======
+>>>>>>> 1994502f631265ce1b0791b1d38676c778a3248d
