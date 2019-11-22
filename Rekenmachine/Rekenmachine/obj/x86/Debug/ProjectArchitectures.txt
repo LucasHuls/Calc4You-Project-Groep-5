@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\bramv\Documents\ScrumGroep5\Calc4You-Groep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;x86
+=======
+C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;x86
+>>>>>>> 075612f5d9f84528f0d47139b149c7e24ed3e0c7
