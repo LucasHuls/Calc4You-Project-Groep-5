@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Rekenmachine"
+    "\\Rekenmachine",
+    "\\Rekenmachine\\Rekenmachine"
   ],
-  "SelectedNode": "\\Rekenmachine\\Rekenmachine.sln",
+  "SelectedNode": "\\Rekenmachine\\Rekenmachine\\MainPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
