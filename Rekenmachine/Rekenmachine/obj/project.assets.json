@@ -8151,18 +8151,30 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\Eigenaar\\.nuget\\packages\\": {},
+=======
     "C:\\Users\\elfri\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+>>>>>>> f604c743207e498e0a0583b41741c945c524f93f
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "projectName": "Rekenmachine",
+      "projectPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+      "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "projectName": "Rekenmachine",
       "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
       "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> f604c743207e498e0a0583b41741c945c524f93f
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,9 +8182,14 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\Eigenaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
         "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> f604c743207e498e0a0583b41741c945c524f93f
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
