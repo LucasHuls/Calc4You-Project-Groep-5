@@ -164,10 +164,10 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
+            this.Uitkomst.Text = "";
             this.Som.Text += ",";
-            invoer += '.';
-            this.Uitkomst.Text += ",";
-            Convert.ToDouble(invoer);
+            invoer += ',';
+            this.Uitkomst.Text += invoer;
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
@@ -228,13 +228,10 @@ namespace Rekenmachine
 
         private void PlusMinClick(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void HexadecimaalClick(object sender, RoutedEventArgs e)
-        {
-            var hexadecimaal = Convert.ToString(Convert.ToInt32(invoer), 16);
-            Uitkomst.Text = Convert.ToString(hexadecimaal);
+            double plusMin = Convert.ToDouble(invoer);
+            plusMin -= plusMin * 2;
+            invoer = Convert.ToString(plusMin);
+            Uitkomst.Text = invoer;
         }
     }
 }

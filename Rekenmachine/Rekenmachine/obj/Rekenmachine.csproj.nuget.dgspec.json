@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
         "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\elfri\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+=======
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectName": "Rekenmachine",
+        "projectPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,9 +33,14 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+          "C:\\Users\\Eigenaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 4c5d7d438e5b79394230e66692c85463faf25781
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"
