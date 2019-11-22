@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\obj"
+=======
+    ""
+>>>>>>> 3a773f2a0b51c7c9c58c5eaadfcce48cef8dd0ee
   ],
   "SelectedNode": "\\MainPage.xaml.cs",
   "PreviewInSolutionExplorer": false
