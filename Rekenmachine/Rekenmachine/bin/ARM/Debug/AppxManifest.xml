@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="45bce1ea-7355-40c3-8f17-0cdf818b69c9" Publisher="CN=elfri" Version="1.0.0.0" ProcessorArchitecture="arm" />
+  <Identity Name="45bce1ea-7355-40c3-8f17-0cdf818b69c9" Publisher="CN=Scrum Groep 5" Version="1.0.0.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="45bce1ea-7355-40c3-8f17-0cdf818b69c9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Rekenmachine</DisplayName>
-    <PublisherDisplayName>elfri</PublisherDisplayName>
+    <PublisherDisplayName>Scrum Groep 5</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

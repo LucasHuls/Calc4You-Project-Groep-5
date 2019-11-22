@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-C:\Users\bramv\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;arm
-=======
-C:\Users\elfri\Documents\ScrumGroep5\ScrumGroep5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;arm
->>>>>>> 726f4d12659bc668f59495ecffa46798f810d4a0
+C:\Users\elfri\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\Rekenmachine.csproj;arm
