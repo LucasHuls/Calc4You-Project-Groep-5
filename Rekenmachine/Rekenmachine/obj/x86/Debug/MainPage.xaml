@@ -26,7 +26,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:ConnectionId='2' x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="70" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
+        <TextBox x:ConnectionId='2' x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="64" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
         <Button x:ConnectionId='3' x:Name="Modulo" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="%" VerticalAlignment="Stretch"                     HorizontalAlignment="Stretch" MinHeight="20"/>
         <Button x:ConnectionId='4' x:Name="Binair" Grid.Column="1" Margin="0,3,3,0" Content="Bin" VerticalAlignment="Stretch"                     HorizontalAlignment="Stretch" Grid.Row="3"/>
         <Button x:ConnectionId='5' x:Name="EurDollar" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                        Grid.Row="3" Grid.Column="2"/>
