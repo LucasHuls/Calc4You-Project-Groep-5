@@ -53,9 +53,9 @@ Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
 
 ## Team
-| Lucas Huls  | Second Header |
+| Lucas Huls  | Bram van Nek |
 | ------------- | ------------- |
-| <img src="readme-bestanden/Lucas.png" alt="Laadscherm">  | Content Cell  |
+| <img src="readme-bestanden/Lucas.png" alt="Laadscherm">  | <img src="readme-bestanden/Bram.png" alt="Laadscherm">  |
 | Content Cell  | Content Cell  |
 
 ## Handige Info
