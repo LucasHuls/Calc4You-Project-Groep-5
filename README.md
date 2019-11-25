@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/LucasHuls/ScrumGroep5">
-    <img src="readme-bestanden/rocvtlogo.jpg" alt="Logo">
+    <img src="readme-bestanden/Logo_1240x600.png" alt="Logo">
   </a>
 
   <h3 align="center">Scrum Groep 5</h3>
