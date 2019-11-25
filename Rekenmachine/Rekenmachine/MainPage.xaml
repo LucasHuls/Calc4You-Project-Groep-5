@@ -26,7 +26,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="48" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
+        <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="70" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
         <Button x:Name="CE" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="CE" VerticalAlignment="Stretch" Click="CEClick" HorizontalAlignment="Stretch" MinHeight="20"/>
         <Button x:Name="Binair" Grid.Column="1" Margin="0,3,3,0" Content="Bin" VerticalAlignment="Stretch" Click="BinearClick" HorizontalAlignment="Stretch" Grid.Row="3"/>
         <Button x:Name="EurDollar" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="3" Grid.Column="2"/>
@@ -48,7 +48,7 @@
         <Button x:Name="Komma" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
         <Button x:Name="Is" Content="=" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
         <Button x:Name="PlusMin" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="+/-" Click="PlusMinClick" Grid.Row="7"/>
-        <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" TextWrapping="Wrap" TextAlignment="Right"/>
+        <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" FontSize="24" TextWrapping="Wrap" TextAlignment="Right"/>
         <Button x:Name="Hexadecimaal" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexaDecimaalClick" Grid.Row="2" Grid.Column="1"/>
     </Grid>
 </Page>
