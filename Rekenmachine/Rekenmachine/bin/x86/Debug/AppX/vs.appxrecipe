@@ -30,29 +30,13 @@
     <AppXManifest Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2019-11-25T10:08:43.149</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2019-11-25T09:05:16.274</Modified>
-=======
-      <Modified>2019-11-25T09:18:18.322</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
->>>>>>> 7b8a15547e7d12175fbf3ae1ff9676de70f79214
+      <Modified>2019-11-25T10:14:16.848</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.exe">
       <PackagePath>entrypoint\Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-25T10:08:42.785</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2019-11-25T09:05:14.833</Modified>
-=======
-      <Modified>2019-11-25T09:18:17.925</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
->>>>>>> 7b8a15547e7d12175fbf3ae1ff9676de70f79214
+      <Modified>2019-11-25T10:14:16.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -112,35 +96,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Rekenmachine.xr.xml">
       <PackagePath>Rekenmachine.xr.xml</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-25T08:54:48.849</Modified>
-=======
-      <Modified>2019-11-25T09:09:45.510</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
+      <Modified>2019-11-25T10:08:49.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-25T10:08:42.649</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2019-11-25T09:05:14.610</Modified>
-=======
-      <Modified>2019-11-25T09:09:45.530</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
->>>>>>> 7b8a15547e7d12175fbf3ae1ff9676de70f79214
+      <Modified>2019-11-25T10:14:15.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-25T10:08:42.649</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2019-11-25T09:05:14.610</Modified>
-=======
-      <Modified>2019-11-25T09:18:17.793</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
->>>>>>> 7b8a15547e7d12175fbf3ae1ff9676de70f79214
+      <Modified>2019-11-25T10:14:15.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -152,15 +116,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eigenaar\Desktop\School\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x86\Debug\Core\Rekenmachine.exe">
       <PackagePath>Rekenmachine.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2019-11-25T10:08:43.144</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2019-11-25T09:05:16.243</Modified>
-=======
-      <Modified>2019-11-25T09:18:18.319</Modified>
->>>>>>> 8f517810bfb5a555daad033365456b0fb1aa56db
->>>>>>> 7b8a15547e7d12175fbf3ae1ff9676de70f79214
+      <Modified>2019-11-25T10:14:16.835</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
