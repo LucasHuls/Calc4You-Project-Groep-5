@@ -164,10 +164,10 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
             this.Som.Text += ",";
-            invoer += ',';
-            this.Uitkomst.Text += invoer;
+            invoer += '.';
+            this.Uitkomst.Text += ",";
+            Convert.ToDouble(invoer);
         }
 
         public void IsClick(object sender, RoutedEventArgs e)
