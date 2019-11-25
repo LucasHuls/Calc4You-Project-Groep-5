@@ -1,3 +1,5 @@
 /.vs
 Rekenmachine/.vs
+Rekenmachine/Rekenmachine/obj
+Rekenmachine/Rekenmachine/bin
 *.exe
