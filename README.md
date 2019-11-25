@@ -47,7 +47,7 @@ Bram van Nek = 0320069@student.rocvantwente.nl
 <br>
 Sam Elfring = 0318893@student.rocvantwente.nl
 <br>
-Lucas Huls 1 = 0320242@student.rocvantwente.nl
+Lucas Huls  = 0320242@student.rocvantwente.nl
 <br>
 Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
