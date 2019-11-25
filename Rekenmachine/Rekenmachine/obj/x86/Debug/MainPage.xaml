@@ -9,30 +9,47 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBox x:ConnectionId='2' x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
-        <Button x:ConnectionId='3' x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                 HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='4' x:Name="Binair" Content="Bin" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="41"                    />
-        <Button x:ConnectionId='5' x:Name="EurDollar" Content="EUR/DOL" Margin="180,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                        HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='6' x:Name="Delen" Content="/" Margin="270,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='7' x:Name="Zeven" Content="7" Margin="0,153,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='8' x:Name="Acht" Content="8" Margin="90,153,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='9' x:Name="Negen" Content="9" Margin="180,153,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='10' x:Name="Keer" Content="X" Margin="270,153,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='11' x:Name="Vier" Content="4" Margin="0,207,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='12' x:Name="Vijf" Content="5" Margin="90,207,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='13' x:Name="Zes" Content="6" Margin="180,207,0,0" VerticalAlignment="Top" Height="49" Width="87"                  HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='14' x:Name="Min" Content="-" Margin="270,207,0,0" VerticalAlignment="Top" Height="49" Width="87"                  HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='15' x:Name="Een" Content="1" Margin="0,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                  HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='16' x:Name="Twee" Content="2" Margin="90,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='17' x:Name="Drie" Content="3" Margin="180,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='18' x:Name="Plus" Content="+" Margin="270,261,0,0" VerticalAlignment="Top" Height="49" Width="87"                   HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='19' x:Name="Modulo" Content="%" Margin="0,315,0,0" VerticalAlignment="Top" Height="49" Width="41"                     HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='20' x:Name="Nul" Content="0" Margin="90,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                  HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='21' x:Name="Komma" Content="," Margin="180,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                 HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='23' x:Name="PlusMin" Content="+/-" Margin="45,315,0,0" VerticalAlignment="Top" Height="49" Width="41"                      HorizontalAlignment="Left"/>
-        <TextBox x:ConnectionId='24' x:Name="Som" IsReadOnly="True" HorizontalAlignment="Left" Margin="0,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="360" TextAlignment="Right"/>
-        <Button x:ConnectionId='25' x:Name="HexaDecimaal" Content="Hx" Margin="136,100,0,0" VerticalAlignment="Top" Height="49" Width="41"                          />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="55*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:ConnectionId='2' x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="70" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
+        <Button x:ConnectionId='3' x:Name="Modulo" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="%" VerticalAlignment="Stretch"                     HorizontalAlignment="Stretch" MinHeight="20"/>
+        <Button x:ConnectionId='4' x:Name="Binair" Grid.Column="1" Margin="0,3,3,0" Content="Bin" VerticalAlignment="Stretch"                     HorizontalAlignment="Stretch" Grid.Row="3"/>
+        <Button x:ConnectionId='5' x:Name="EurDollar" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                        Grid.Row="3" Grid.Column="2"/>
+        <Button x:ConnectionId='6' x:Name="Delen" Grid.Column="3" Margin="0,3,3,0" Content="/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                    Grid.RowSpan="2" Grid.Row="2"/>
+        <Button x:ConnectionId='7' x:Name="Zeven" Grid.Column="0" Margin="0,3,3,0" Content="7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    Grid.Row="4"/>
+        <Button x:ConnectionId='8' x:Name="Acht" Grid.Column="1" Margin="0,3,3,0" Content="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   Grid.Row="4"/>
+        <Button x:ConnectionId='9' x:Name="Negen" Grid.Column="2" Margin="0,3,3,0" Content="9" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    Grid.Row="4"/>
+        <Button x:ConnectionId='10' x:Name="Keer" Content="X" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                   Grid.Row="4" Grid.Column="4"/>
+        <Button x:ConnectionId='11' x:Name="Vier" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="4"                   Grid.Row="5"/>
+        <Button x:ConnectionId='12' x:Name="Vijf" Grid.Column="1" Margin="0,3,3,0" Content="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                   Grid.Row="5"/>
+        <Button x:ConnectionId='13' x:Name="Zes" Content="6" Margin="0,3,3,0"                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="5"/>
+        <Button x:ConnectionId='14' x:Name="Min" Content="-" Margin="0,3,3,0"                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="3" Grid.Row="5"/>
+        <Button x:ConnectionId='15' x:Name="Een" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="1" VerticalAlignment="Stretch"                  Grid.Row="6"/>
+        <Button x:ConnectionId='16' x:Name="Twee" Grid.Column="1" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="2" VerticalAlignment="Stretch"                   Grid.Row="6"/>
+        <Button x:ConnectionId='17' x:Name="Drie" Grid.Column="2" Margin="0,3,3,0" HorizontalAlignment="Stretch" Content="3" VerticalAlignment="Stretch"                   Grid.Row="6"/>
+        <Button x:ConnectionId='18' x:Name="Plus" Content="+" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                   Grid.Column="3" Grid.Row="6"/>
+        <Button x:ConnectionId='19' x:Name="CE" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                 Grid.Row="2"/>
+        <Button x:ConnectionId='20' x:Name="Nul" Content="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1"                  Grid.Row="7"/>
+        <Button x:ConnectionId='21' x:Name="Komma" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2"                    Grid.Row="7"/>
+        <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                 Grid.Column="3" Grid.Row="7"/>
+        <Button x:ConnectionId='23' x:Name="PlusMin" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="+/-"                      Grid.Row="7"/>
+        <TextBox x:ConnectionId='24' x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" FontSize="24" TextWrapping="Wrap" TextAlignment="Right"/>
+        <Button x:ConnectionId='25' x:Name="Hexadecimaal" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                           Grid.Row="2" Grid.Column="1"/>
     </Grid>
 </Page>
 
