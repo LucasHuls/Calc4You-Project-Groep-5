@@ -11,7 +11,7 @@
     <Grid>
         <TextBox x:ConnectionId='2' x:Name="Uitkomst" IsReadOnly="True" HorizontalAlignment="Left" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="65" Width="360" FontSize="48" FontFamily="Calibri" TextAlignment="Right"/>
         <Button x:ConnectionId='3' x:Name="CE" Content="CE" Margin="0,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                 HorizontalAlignment="Left"/>
-        <Button x:ConnectionId='4' x:Name="Binair" Content="Binair" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                     HorizontalAlignment="Left"/>
+        <Button x:ConnectionId='4' x:Name="Binair" Content="Bin" Margin="90,100,0,0" VerticalAlignment="Top" Height="49" Width="41"                    />
         <Button x:ConnectionId='5' x:Name="EurDollar" Content="EUR/DOL" Margin="180,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                        HorizontalAlignment="Left"/>
         <Button x:ConnectionId='6' x:Name="Delen" Content="/" Margin="270,100,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
         <Button x:ConnectionId='7' x:Name="Zeven" Content="7" Margin="0,153,0,0" VerticalAlignment="Top" Height="49" Width="87"                    HorizontalAlignment="Left"/>
@@ -32,6 +32,7 @@
         <Button x:ConnectionId='22' x:Name="Is" Content="=" Margin="270,315,0,0" VerticalAlignment="Top" Height="49" Width="87"                 HorizontalAlignment="Left"/>
         <Button x:ConnectionId='23' x:Name="PlusMin" Content="+/-" Margin="45,315,0,0" VerticalAlignment="Top" Height="49" Width="41"                      HorizontalAlignment="Left"/>
         <TextBox x:ConnectionId='24' x:Name="Som" IsReadOnly="True" HorizontalAlignment="Left" Margin="0,65,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="360" TextAlignment="Right"/>
+        <Button x:ConnectionId='25' x:Name="HexaDecimaal" Content="Hx" Margin="136,100,0,0" VerticalAlignment="Top" Height="49" Width="41"                          />
     </Grid>
 </Page>
 
