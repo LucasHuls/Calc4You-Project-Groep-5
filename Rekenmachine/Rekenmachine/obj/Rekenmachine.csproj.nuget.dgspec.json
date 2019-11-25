@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
+    "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "projectUniqueName": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
         "projectName": "Rekenmachine",
-        "projectPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
-        "packagesPath": "C:\\Users\\ljhul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ljhul\\Documents\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
+        "projectPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\Rekenmachine.csproj",
+        "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eigenaar\\Desktop\\School\\ScrumGroep5\\Calc4You-Project-Groep-5\\Rekenmachine\\Rekenmachine\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eigenaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
