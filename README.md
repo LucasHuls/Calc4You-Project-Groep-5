@@ -47,10 +47,16 @@ Bram van Nek = 0320069@student.rocvantwente.nl
 <br>
 Sam Elfring = 0318893@student.rocvantwente.nl
 <br>
-Lucas Huls = 0320242@student.rocvantwente.nl
+Lucas Huls 1 = 0320242@student.rocvantwente.nl
 <br>
 Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
+
+## Team
+| Lucas Huls  | Second Header |
+| ------------- | ------------- |
+| <img scr="readme-bestanden/Lucas.png" alt="Lucas">  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ## Handige Info
 Project Link: [https://github.com/LucasHuls/ScrumGroep5](https://github.com/LucasHuls/ScrumGroep5)
