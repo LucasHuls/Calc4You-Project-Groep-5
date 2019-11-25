@@ -1,0 +1,16 @@
+﻿/osver:6.2
+/appcontainer
+"/runtime:mrt100_app"
+/eh:clr
+/pdb
+"/nativeLink:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x64\Release\ilc\intermediate\MDIL\Rekenmachine.mdilexe"
+"/i:C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x64\Release\ilc\intermediate\Native\Rekenmachine.exe"
+"/pdbAltPath:C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\bin\x64\Release\ilc"
+"/res:C:\Users\ljhul\Documents\ScrumGroep5\Calc4You-Project-Groep-5\Rekenmachine\Rekenmachine\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.7-rel-27913-00\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"
