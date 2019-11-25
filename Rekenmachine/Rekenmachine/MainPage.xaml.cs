@@ -35,6 +35,7 @@ namespace Rekenmachine
 
         public void CEClick(object sender, RoutedEventArgs e)
         {
+            Uitkomst.FontSize = 64;
             this.Uitkomst.Text = "";
             this.invoer = string.Empty;
             this.getal1 = string.Empty;
@@ -222,8 +223,11 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
-            string binair = Convert.ToInt32(invoer, 2).ToString();
-            Uitkomst.Text = Convert.ToString(binair);
+            double invoerBinair = Convert.ToDouble(invoer);
+            long binair = BitConverter.DoubleToInt64Bits(invoerBinair);
+            string str = Convert.ToString(binair, 2);
+            Uitkomst.Text = str;
+            Uitkomst.FontSize = 24;
         }
 
         private void PlusMinClick(object sender, RoutedEventArgs e)
