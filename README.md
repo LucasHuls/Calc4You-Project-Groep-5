@@ -11,7 +11,7 @@
 	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/wiki"><strong>Wiki »</strong></a>
 	<br />
-    <a href="https://trello.com/b/TxJhCz5B/ao-scrum"><strong>Scrum-Bord »</strong></a>
+    <a href="https://dev.azure.com/cooleboysz/AO%20SCRUM%20GROEP%205/_dashboards/dashboard/21a2c9e4-ca88-4dad-8e08-020cbf2b4b69"><strong>Scrum-Bord »</strong></a>
 	<br />
     <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</strong></a>
 	<br />
