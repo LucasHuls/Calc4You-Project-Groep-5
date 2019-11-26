@@ -36,113 +36,113 @@ namespace Rekenmachine
         public void CEClick(object sender, RoutedEventArgs e)
         {
             Uitkomst.FontSize = 64;
-            this.Uitkomst.Text = "";
-            this.invoer = string.Empty;
-            this.getal1 = string.Empty;
-            this.getal2 = string.Empty;
-            this.Som.Text = "";
+            Uitkomst.Text = "";
+            invoer = string.Empty;
+            getal1 = string.Empty;
+            getal2 = string.Empty;
+            Som.Text = "";
         }
 
         public void DelenClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
-            this.Som.Text += "/";
+            Som.Text += "/";
             operatie = '/';
             invoer = string.Empty;
         }
 
         public void ZevenClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "7";
+            Uitkomst.Text = "";
+            Som.Text += "7";
             invoer += 7;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void AchtClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "8";
+            Uitkomst.Text = "";
+            Som.Text += "8";
             invoer += 8;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void NegenClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "9";
+            Uitkomst.Text = "";
+            Som.Text += "9";
             invoer += 9;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void KeerClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
-            this.Som.Text += "X";
+            Som.Text += "X";
             operatie = 'X';
             invoer = string.Empty;
         }
 
         public void VierClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "4";
+            Uitkomst.Text = "";
+            Som.Text += "4";
             invoer += 4;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void VijfClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "5";
+            Uitkomst.Text = "";
+            Som.Text += "5";
             invoer += 5;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void ZesClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "6";
+            Uitkomst.Text = "";
+            Som.Text += "6";
             invoer += 6;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void MinClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
-            this.Som.Text += "-";
+            Som.Text += "-";
             operatie = '-';
             invoer = string.Empty;
         }
 
         public void EenClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "1";
+            Uitkomst.Text = "";
+            Som.Text += "1";
             invoer += 1;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void TweeClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "2";
+            Uitkomst.Text = "";
+            Som.Text += "2";
             invoer += 2;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void DrieClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "3";
+            Uitkomst.Text = "";
+            Som.Text += "3";
             invoer += 3;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void PlusClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
-            this.Som.Text += "+";
+            Som.Text += "+";
             operatie = '+';
             invoer = string.Empty;
         }
@@ -150,24 +150,24 @@ namespace Rekenmachine
         public void ModuloClick(object sender, RoutedEventArgs e)
         {
             getal1 = invoer;
-            this.Som.Text += "%";
+            Som.Text += "%";
             operatie = '%';
             invoer = string.Empty;
         }
 
         public void NulClick(object sender, RoutedEventArgs e)
         {
-            this.Uitkomst.Text = "";
-            this.Som.Text += "0";
+            Uitkomst.Text = "";
+            Som.Text += "0";
             invoer += 0;
-            this.Uitkomst.Text += invoer;
+            Uitkomst.Text += invoer;
         }
 
         public void KommaClick(object sender, RoutedEventArgs e)
         {
-            this.Som.Text += ",";
+            Som.Text += ",";
             invoer += '.';
-            this.Uitkomst.Text += ",";
+            Uitkomst.Text += ",";
             Convert.ToDouble(invoer);
         }
 
@@ -177,7 +177,7 @@ namespace Rekenmachine
             double nummer1, nummer2;
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
-            this.Som.Text = "";
+            Som.Text = "";
 
             if (operatie == '+')
             {
