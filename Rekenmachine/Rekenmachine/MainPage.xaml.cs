@@ -231,15 +231,13 @@ namespace Rekenmachine
         {
             if (invoer != string.Empty)
             {
-                double invoerBinair = Convert.ToDouble(invoer);
-                long binair = BitConverter.DoubleToInt64Bits(invoerBinair);
-                string str = Convert.ToString(binair, 2);
-                Uitkomst.Text = str;
-                Uitkomst.FontSize = 24;
+                int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
+                string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
+                Uitkomst.Text = binair1;
             }
             else
             {
-                Uitkomst.Text = "Voer iets in";
+                Uitkomst.Text = "Voer iets in"; //Je kan geen 0 intypen.
             }
         }
 
