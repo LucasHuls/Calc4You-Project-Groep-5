@@ -31,7 +31,7 @@
         <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" FontSize="24" TextWrapping="Wrap" TextAlignment="Right"/>
         
         <!--Knoppen-->
-        <Button x:Name="CE" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CEClick" Grid.Row="2"/>
+        <Button x:Name="CE" Background="Orange" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CEClick" Grid.Row="2"/>
         <Button x:Name="Hexadecimaal" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexaDecimaalClick" Grid.Row="2" Grid.Column="1"/>
         <Button x:Name="EurDollar" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="2" Grid.RowSpan="2" Grid.Column="2"/>
         <Button x:Name="Delen" Grid.Column="3" Margin="0,3,3,0" Content="/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="DelenClick" Grid.RowSpan="2" Grid.Row="2"/>
@@ -57,6 +57,6 @@
         <Button x:Name="PlusMin" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="+/-" Click="PlusMinClick" Grid.Row="7"/>
         <Button x:Name="Nul" Content="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Click="NulClick" Grid.Row="7"/>
         <Button x:Name="Komma" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
-        <Button x:Name="Is" Content="=" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
+        <Button x:Name="Is" Content="=" Background="Orange" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
     </Grid>
 </Page>
