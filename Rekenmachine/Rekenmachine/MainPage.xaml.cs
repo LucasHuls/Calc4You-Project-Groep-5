@@ -229,7 +229,7 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
-            if (invoer != "")
+            if (invoer != string.Empty)
             {
                 double invoerBinair = Convert.ToDouble(invoer);
                 long binair = BitConverter.DoubleToInt64Bits(invoerBinair);
@@ -253,7 +253,7 @@ namespace Rekenmachine
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e)
         {
-            if (invoer != "")
+            if (invoer != string.Empty)
             {
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
                 Uitkomst.Text = Convert.ToString(hexa);
