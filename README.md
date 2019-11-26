@@ -25,7 +25,7 @@
 
 | Laad-Scherm 									 | Rekenmachine-Design 						   |
 | :---:        									 |     :---:      							   |
-| <img src="readme-bestanden/laad-scherm.png" width="200">   | <img src="readme-bestanden/design.png" width="200">     |
+| <img src="readme-bestanden/laad-scherm.png" width="500">   | <img src="readme-bestanden/design.png" width="500">     |
 
 ## Rekenmachine
 
