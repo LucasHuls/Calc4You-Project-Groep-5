@@ -215,19 +215,32 @@ namespace Rekenmachine
         
         private void EurDollarClick(object sender, RoutedEventArgs e)
         {
-            double euro = Convert.ToDouble(invoer);
-            euro *= 1.1083;
-            Uitkomst.Text = euro.ToString(); 
-
+            if (invoer != "")
+            {
+                double euro = Convert.ToDouble(invoer);
+                euro *= 1.1083;
+                Uitkomst.Text = euro.ToString(); 
+            }
+            else
+            {
+                Uitkomst.Text = "Voer iets in";
+            }
         }
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
-            double invoerBinair = Convert.ToDouble(invoer);
-            long binair = BitConverter.DoubleToInt64Bits(invoerBinair);
-            string str = Convert.ToString(binair, 2);
-            Uitkomst.Text = str;
-            Uitkomst.FontSize = 24;
+            if (invoer != "")
+            {
+                double invoerBinair = Convert.ToDouble(invoer);
+                long binair = BitConverter.DoubleToInt64Bits(invoerBinair);
+                string str = Convert.ToString(binair, 2);
+                Uitkomst.Text = str;
+                Uitkomst.FontSize = 24;
+            }
+            else
+            {
+                Uitkomst.Text = "Voer iets in";
+            }
         }
 
         private void PlusMinClick(object sender, RoutedEventArgs e)
@@ -240,8 +253,15 @@ namespace Rekenmachine
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e)
         {
-            var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
-            Uitkomst.Text = Convert.ToString(hexa);
+            if (invoer != "")
+            {
+                var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
+                Uitkomst.Text = Convert.ToString(hexa);
+            }
+            else
+            {
+                Uitkomst.Text = "Voer iets in";
+            }
         }
     }
 }
