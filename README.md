@@ -11,7 +11,7 @@
 	<br />
 	<a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5/wiki"><strong>Wiki »</strong></a>
 	<br />
-    <a href="https://trello.com/b/TxJhCz5B/ao-scrum"><strong>Scrum-Bord »</strong></a>
+    <a href="https://dev.azure.com/cooleboysz/AO%20SCRUM%20GROEP%205/_dashboards/dashboard/21a2c9e4-ca88-4dad-8e08-020cbf2b4b69"><strong>Scrum-Bord »</strong></a>
 	<br />
     <a href="https://github.com/LucasHuls/ScrumGroep5/issues"><strong>Meld een bug »</strong></a>
 	<br />
@@ -29,7 +29,7 @@
 
 ## Rekenmachine
 
-Jullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ontwikkeld oplossingen om mensen te helpen bij rekenen en het inzichtelijk krijgen van hun inkomsten en uitgaven. Hiervoor hebben ze een methode ontwikkeld waarin ze hun klanten laten oefenen met verschillende opdrachten. In deze opdrachten moet er gerekend worden ze willen voor dit doel een rekenmachine applicatie laten ontwikkelen. Maar zij hebben geen Software Ontwikkelaars in dienst, ze hebben daarom aan jullie scrum groep gevraagd om zo'n applicatie voor hun te ontwikkelen. Om duidelijk te krijgen wat er ontwikkeld moet worden gaan jullie in gesprek met jullie coach/product owner om duidelijk te krijgen wat de wensen en eisen zijn. Het is aan jullie om hem uit te nodigen voor een gesprek! 
+> Jullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ontwikkeld oplossingen om mensen te helpen bij rekenen en het inzichtelijk krijgen van hun inkomsten en uitgaven. Hiervoor hebben ze een methode ontwikkeld waarin ze hun klanten laten oefenen met verschillende opdrachten. In deze opdrachten moet er gerekend worden ze willen voor dit doel een rekenmachine applicatie laten ontwikkelen. Maar zij hebben geen Software Ontwikkelaars in dienst, ze hebben daarom aan jullie scrum groep gevraagd om zo'n applicatie voor hun te ontwikkelen. Om duidelijk te krijgen wat er ontwikkeld moet worden gaan jullie in gesprek met jullie coach/product owner om duidelijk te krijgen wat de wensen en eisen zijn. Het is aan jullie om hem uit te nodigen voor een gesprek! 
 
 ## Instalatie
 
@@ -39,10 +39,10 @@ git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
 ## Team
-| Lucas Huls  | Bram van Nek | Julian Moreno | Sam Elfring | Jesse Overveld |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Lucas Huls    						  | Bram van Nek 						   | Julian Moreno 		   					 | Sam Elfring 							| Jesse Overveld |
+| ------------- 						  | ------------- 						   | ------------- 		   					 | -------------  						| ------------- |
 | <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> |
-| Notulist  | Deelnemer  | Deelnemer | Bord-Schrijver  | Scrumleader |
+| Notulist      						  | Deelnemer  							   | Deelnemer 								 | Bord-Schrijver  						| Scrumleader |
 
 ## Contact
 Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">hier</a>

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Rekenmachine")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("Scrum Groep 5")]
 [assembly: AssemblyProduct("Rekenmachine")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
+[assembly: AssemblyCopyright("Copyright © Scrum Groep 5")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
