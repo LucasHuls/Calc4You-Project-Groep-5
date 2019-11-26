@@ -38,6 +38,12 @@ Jullie gaan voor het bedrijf Calc4You een applicatie realiseren. Dit bedrijf ont
 git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
+## Team
+| Lucas Huls  | Bram van Nek | Julian Moreno | Sam Elfring | Jesse Overveld |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> |
+| Notulist  | Deelnemer  | Deelnemer | Bord-Schrijver  | Scrumleader |
+
 ## Contact
 Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">hier</a>
 <br>
@@ -51,12 +57,6 @@ Lucas Huls  = 0320242@student.rocvantwente.nl
 <br>
 Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
-
-## Team
-| Lucas Huls  | Bram van Nek | Julian Moreno | Sam Elfring | Jesse Overveld |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> |
-| Content Cell  | Content Cell  | Content Cell | Content Cell  | Content Cell |
 
 ## Handige Info
 Project Link: [https://github.com/LucasHuls/ScrumGroep5](https://github.com/LucasHuls/ScrumGroep5)
