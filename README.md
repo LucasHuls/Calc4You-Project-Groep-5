@@ -53,10 +53,10 @@ Julian Moreno = 0317851@student.rocvantwente.nl
 <br>
 
 ## Team
-| Lucas Huls  | Bram van Nek | Julian Moreno |
+| Lucas Huls  | Bram van Nek | Julian Moreno | Sam Elfring | Jesse Overveld |
 | ------------- | ------------- | ------------- |
-| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> |
-| Content Cell  | Content Cell  | Content Cell |
+| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> |
+| Content Cell  | Content Cell  | Content Cell | Content Cell  | Content Cell |
 
 ## Handige Info
 Project Link: [https://github.com/LucasHuls/ScrumGroep5](https://github.com/LucasHuls/ScrumGroep5)
