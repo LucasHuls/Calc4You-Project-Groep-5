@@ -228,6 +228,8 @@ namespace Rekenmachine
             {
                 Uitkomst.Text = "Voer iets in"; //Je kan geen 0 intypen.
             }
+            
+                
         }
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
