@@ -220,7 +220,7 @@ namespace Rekenmachine
         {
             if ((Convert.ToDouble(invoer) % 1) > 0)
             {
-                Uitkomst.Text = "Decimalen zijn geen binair";
+                Uitkomst.Text = "Binair kan geen kommagetal zijn";
             }
             else if (invoer != string.Empty)
             {
@@ -244,7 +244,11 @@ namespace Rekenmachine
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
         {
-            if (invoer != string.Empty)
+            if ((Convert.ToDouble(invoer) % 1) > 0)
+            {
+                Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
+            }
+            else if (invoer != string.Empty)
             {
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
                 Uitkomst.Text = Convert.ToString(hexa);
