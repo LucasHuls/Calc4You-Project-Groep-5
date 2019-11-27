@@ -243,10 +243,17 @@ namespace Rekenmachine
 
         private void PlusMinClick(object sender, RoutedEventArgs e)
         {
-            double plusMin = Convert.ToDouble(invoer);
-            plusMin -= plusMin * 2;
-            invoer = Convert.ToString(plusMin);
-            Uitkomst.Text = invoer;
+            if (invoer != string.Empty)
+            {
+                double plusMin = Convert.ToDouble(invoer);
+                plusMin -= plusMin * 2;
+                invoer = Convert.ToString(plusMin);
+                Uitkomst.Text = invoer;
+            }
+            else
+            {
+                Uitkomst.Text = "voer iets in";
+            }
         }
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e)
