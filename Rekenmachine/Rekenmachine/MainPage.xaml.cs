@@ -218,11 +218,7 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e) //Binaire Knop
         {
-            if ((Convert.ToDouble(invoer) % 1) > 0)
-            {
-                Uitkomst.Text = "Binair kan geen kommagetal zijn";
-            }
-            else if (invoer != string.Empty)
+            if (invoer != string.Empty)
             {
                 int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
                 string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
@@ -244,7 +240,7 @@ namespace Rekenmachine
             }
             else
             {
-                Uitkomst.Text = "voer iets in";
+                Uitkomst.Text = "Voer iets in";
             }
         }
 
