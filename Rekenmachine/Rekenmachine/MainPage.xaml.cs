@@ -229,7 +229,11 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e)
         {
-            if (invoer != string.Empty)
+            if ((Convert.ToDouble(invoer) % 1) > 0)
+            {
+                Uitkomst.Text = "Decimalen zijn geen binair";
+            }
+            else if (invoer != string.Empty)
             {
                 int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
                 string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
