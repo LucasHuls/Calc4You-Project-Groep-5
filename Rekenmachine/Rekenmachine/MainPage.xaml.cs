@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -27,13 +16,13 @@ namespace Rekenmachine
             this.InitializeComponent();
         }
 
-        string invoer = string.Empty;
-        string getal1 = string.Empty;
-        string getal2 = string.Empty;
-        char operatie;
-        double resultaat = 0.0;
+        private string invoer = string.Empty; //Gebruikers invoer
+        private string getal1 = string.Empty; //Variabel opslag eerste invoer
+        private string getal2 = string.Empty; //Variabel opslag tweede invoer
+        private char operatie; //Operatie (X, /, %, -, + ETC...)
+        private double resultaat = 0.0; //Variabel eindresultaat
 
-        public void CEClick(object sender, RoutedEventArgs e)
+        public void CEClick(object sender, RoutedEventArgs e) //CE Knop, reset alle variabelen
         {
             Uitkomst.FontSize = 64;
             Uitkomst.Text = "";
@@ -43,7 +32,7 @@ namespace Rekenmachine
             Som.Text = "";
         }
 
-        public void DelenClick(object sender, RoutedEventArgs e)
+        public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
         {
             getal1 = invoer;
             Som.Text += "/";
@@ -51,7 +40,7 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void ZevenClick(object sender, RoutedEventArgs e)
+        public void ZevenClick(object sender, RoutedEventArgs e) //Zeven Knop
         {
             Uitkomst.Text = "";
             Som.Text += "7";
@@ -59,7 +48,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void AchtClick(object sender, RoutedEventArgs e)
+        public void AchtClick(object sender, RoutedEventArgs e) //Acht Knop
         {
             Uitkomst.Text = "";
             Som.Text += "8";
@@ -67,7 +56,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void NegenClick(object sender, RoutedEventArgs e)
+        public void NegenClick(object sender, RoutedEventArgs e) //Negen Knop
         {
             Uitkomst.Text = "";
             Som.Text += "9";
@@ -75,7 +64,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void KeerClick(object sender, RoutedEventArgs e)
+        public void KeerClick(object sender, RoutedEventArgs e) //X, Keer Knop
         {
             getal1 = invoer;
             Som.Text += "X";
@@ -83,7 +72,7 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void VierClick(object sender, RoutedEventArgs e)
+        public void VierClick(object sender, RoutedEventArgs e) //Vier Knop
         {
             Uitkomst.Text = "";
             Som.Text += "4";
@@ -91,7 +80,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void VijfClick(object sender, RoutedEventArgs e)
+        public void VijfClick(object sender, RoutedEventArgs e) //Vijf Knop
         {
             Uitkomst.Text = "";
             Som.Text += "5";
@@ -99,7 +88,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void ZesClick(object sender, RoutedEventArgs e)
+        public void ZesClick(object sender, RoutedEventArgs e) //Zes Knop
         {
             Uitkomst.Text = "";
             Som.Text += "6";
@@ -107,7 +96,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void MinClick(object sender, RoutedEventArgs e)
+        public void MinClick(object sender, RoutedEventArgs e) //-, min knop
         {
             getal1 = invoer;
             Som.Text += "-";
@@ -115,7 +104,7 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void EenClick(object sender, RoutedEventArgs e)
+        public void EenClick(object sender, RoutedEventArgs e) //Één Knop
         {
             Uitkomst.Text = "";
             Som.Text += "1";
@@ -123,7 +112,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void TweeClick(object sender, RoutedEventArgs e)
+        public void TweeClick(object sender, RoutedEventArgs e) //Twee Knop
         {
             Uitkomst.Text = "";
             Som.Text += "2";
@@ -131,7 +120,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void DrieClick(object sender, RoutedEventArgs e)
+        public void DrieClick(object sender, RoutedEventArgs e) //Drie Knop
         {
             Uitkomst.Text = "";
             Som.Text += "3";
@@ -139,7 +128,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void PlusClick(object sender, RoutedEventArgs e)
+        public void PlusClick(object sender, RoutedEventArgs e) //+, Plus Knop
         {
             getal1 = invoer;
             Som.Text += "+";
@@ -147,7 +136,7 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void ModuloClick(object sender, RoutedEventArgs e)
+        public void ModuloClick(object sender, RoutedEventArgs e) //%, Modulo Knop
         {
             getal1 = invoer;
             Som.Text += "%";
@@ -155,7 +144,7 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void NulClick(object sender, RoutedEventArgs e)
+        public void NulClick(object sender, RoutedEventArgs e) //Nul Knop
         {
             Uitkomst.Text = "";
             Som.Text += "0";
@@ -163,7 +152,7 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void KommaClick(object sender, RoutedEventArgs e)
+        public void KommaClick(object sender, RoutedEventArgs e) //Komma Knop
         {
             Som.Text += ",";
             invoer += '.';
@@ -171,7 +160,7 @@ namespace Rekenmachine
             Convert.ToDouble(invoer);
         }
 
-        public void IsClick(object sender, RoutedEventArgs e)
+        public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
             double nummer1, nummer2;
@@ -212,14 +201,14 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
         }
-        
-        private void EurDollarClick(object sender, RoutedEventArgs e)
+
+        private void EurDollarClick(object sender, RoutedEventArgs e) //Euro/Dollar Knop
         {
             if (invoer != "")
             {
                 double euro = Convert.ToDouble(invoer);
                 euro *= 1.1083;
-                Uitkomst.Text = euro.ToString(); 
+                Uitkomst.Text = euro.ToString();
             }
             else
             {
@@ -227,9 +216,13 @@ namespace Rekenmachine
             }
         }
 
-        private void BinearClick(object sender, RoutedEventArgs e)
+        private void BinearClick(object sender, RoutedEventArgs e) //Binaire Knop
         {
-            if (invoer != string.Empty)
+            if ((Convert.ToDouble(invoer) % 1) > 0)
+            {
+                Uitkomst.Text = "Binair kan geen kommagetal zijn";
+            }
+            else if (invoer != string.Empty)
             {
                 int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
                 string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
@@ -241,7 +234,7 @@ namespace Rekenmachine
             }
         }
 
-        private void PlusMinClick(object sender, RoutedEventArgs e)
+        private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
             if (invoer != string.Empty)
             {
@@ -256,9 +249,13 @@ namespace Rekenmachine
             }
         }
 
-        private void HexaDecimaalClick(object sender, RoutedEventArgs e)
+        private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
         {
-            if (invoer != string.Empty)
+            if ((Convert.ToDouble(invoer) % 1) > 0)
+            {
+                Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
+            }
+            else if (invoer != string.Empty)
             {
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
                 Uitkomst.Text = Convert.ToString(hexa);
