@@ -160,6 +160,11 @@ namespace Rekenmachine
             Convert.ToDouble(invoer);
         }
 
+        public void GeschiedenisClick(object sender, RoutedEvent e) //laatste 10 berekeningen
+        {
+            invoer = string.Empty; 
+        }
+
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
