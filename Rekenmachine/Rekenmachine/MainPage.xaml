@@ -59,6 +59,6 @@
         <Button x:Name="Komma" FontWeight="Bold" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
         <Button x:Name="Is" FontWeight="Bold" Content="=" Background="Orange" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
 
-        <Button x:Name="geschiedenis" Content="geschiedenis" Background="Blue" Margin="1,194,2,91" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="geschiedenisClick" Grid.RowSpan="3"/>
+        <Button x:Name="geschiedenis" Content="geschiedenis1" Background="Blue" Margin="1,194,2,91" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="GeschiedenisClick" Grid.RowSpan="3"/>
     </Grid>
 </Page>
