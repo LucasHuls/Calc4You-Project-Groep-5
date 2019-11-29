@@ -160,6 +160,7 @@ namespace Rekenmachine
             Convert.ToDouble(invoer);
         }
 
+
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
@@ -261,6 +262,11 @@ namespace Rekenmachine
             {
                 Uitkomst.Text = "Voer iets in";
             }
+        }
+
+        private void GeschiedenisClick(object sender, RoutedEvent e) //laatste 10 berekeningen
+        {
+            Uitkomst.Text = "test";
         }
     }
 }

@@ -29,7 +29,7 @@
         <!--Tekstblokken-->
         <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="64" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
         <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" FontSize="24" TextWrapping="Wrap" TextAlignment="Right"/>
-        
+
         <!--Knoppen-->
         <Button x:Name="CE" FontWeight="Bold" Background="Orange" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CEClick" Grid.Row="2"/>
         <Button x:Name="Hexadecimaal" FontWeight="Bold" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexaDecimaalClick" Grid.Row="2" Grid.Column="1"/>
@@ -58,5 +58,7 @@
         <Button x:Name="Nul" FontWeight="Bold" Content="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Click="NulClick" Grid.Row="7"/>
         <Button x:Name="Komma" FontWeight="Bold" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
         <Button x:Name="Is" FontWeight="Bold" Content="=" Background="Orange" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
+
+        <Button x:Name="geschiedenis" Content="geschiedenis1" Background="Blue" Margin="1,194,2,91" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="GeschiedenisClick" Grid.RowSpan="3"/>
     </Grid>
 </Page>
