@@ -234,11 +234,20 @@ namespace Rekenmachine
         }
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
+<<<<<<< HEAD
             if (Uitkomst.Text != "") {
             double plusMin = Convert.ToDouble(invoer);
             plusMin -= plusMin * 2;
             invoer = Convert.ToString(plusMin);
             Uitkomst.Text = invoer;
+=======
+            if (invoer != string.Empty)
+            {
+                double plusMin = Convert.ToDouble(invoer);
+                plusMin -= plusMin * 2;
+                invoer = Convert.ToString(plusMin);
+                Uitkomst.Text = invoer;
+>>>>>>> 339f4a838e15a2568b3ecb6e4ab034871aa0612b
             }
             else
             {
@@ -261,11 +270,6 @@ namespace Rekenmachine
             {
                 Uitkomst.Text = "Voer iets in";
             }
-        }
-
-        private void GeschiedenisClick(object sender, RoutedEventArgs e)
-        {
-            Uitkomst.Text = "joejoe";
         }
     }
 }
