@@ -160,6 +160,7 @@ namespace Rekenmachine
             Convert.ToDouble(invoer);
         }
 
+
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
@@ -254,17 +255,24 @@ namespace Rekenmachine
         }
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
-            if (invoer != string.Empty)
-            {
-                double plusMin = Convert.ToDouble(invoer);
-                plusMin -= plusMin * 2;
-                invoer = Convert.ToString(plusMin);
-                Uitkomst.Text = invoer;
-            }
+            string bin = invoer;
+            Convert.ToDouble(bin);
+            bin + 4;
+            switch (invoer) {
+                case "":
+                    double plusMin = Convert.ToDouble(invoer);
+                    plusMin -= plusMin * 2;
+                    invoer = Convert.ToString(plusMin);
+                    Uitkomst.Text = invoer;
+                    break;
+
+                case :
+
+            }/*
             else
             {
                 Uitkomst.Text = "Voer iets in";
-            }
+            }*/
         }
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
@@ -282,6 +290,11 @@ namespace Rekenmachine
             {
                 Uitkomst.Text = "Voer iets in";
             }
+        }
+
+        private void GeschiedenisClick(object sender, RoutedEventArgs e)
+        {
+            Uitkomst.Text = "joejoe";
         }
     }
 }
