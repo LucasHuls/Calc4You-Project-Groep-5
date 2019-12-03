@@ -167,11 +167,32 @@ namespace Rekenmachine
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
             Som.Text = "";
+            
+            string connetionString;
+            SqlConnection cnn;
+            connetionString = @"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;User ID=Lucas;Password=admin";
+            cnn = new SqlConnection(connetionString);
+            cnn.Open();
 
             if (operatie == '+')
             {
                 resultaat = nummer1 + nummer2;
                 Uitkomst.Text = resultaat.ToString();
+                MessageBox.Show("Data toegevoegd!");
+
+                SqlCommand command;
+                SqlDataAdapter adapter = new SqlDataAdapter();
+                string sql = "";
+
+                sql = "insert into Berekeningen (ID,Berekening,Uitkomst) values('" + "1" + "', '" + resultaat + "', '" + Uitkomst.Text + "')";
+
+                command = new SqlCommand(sql, cnn);
+
+                adapter.InsertCommand = new SqlCommand(sql, cnn);
+                adapter.InsertCommand.ExecuteNonQuery();
+
+                command.Dispose();
+                cnn.Close();
             }
             else if (operatie == '-')
             {
