@@ -24,8 +24,8 @@ namespace Rekenmachine
 
         public void CEClick(object sender, RoutedEventArgs e) //CE Knop, reset alle variabelen
         {
-            Uitkomst.FontSize = 64;
-            Uitkomst.Text = "";
+            Uitkomst.FontSize = 64; //Lettergroote van de Font
+            Uitkomst.Text = ""; //Hier komt de lege tekst te staan
             invoer = string.Empty;
             getal1 = string.Empty;
             getal2 = string.Empty;
