@@ -234,12 +234,12 @@ namespace Rekenmachine
         }
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
-            if (invoer != string.Empty)
-            {
-                double plusMin = Convert.ToDouble(invoer);
-                plusMin -= plusMin * 2;
-                invoer = Convert.ToString(plusMin);
-                Uitkomst.Text = invoer;
+            if (Uitkomst.Text != "") {
+            double plusMin = Convert.ToDouble(invoer);
+            plusMin -= plusMin * 2;
+            invoer = Convert.ToString(plusMin);
+            Uitkomst.Text = invoer;
+
             }
             else
             {
