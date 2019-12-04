@@ -53,8 +53,16 @@ namespace Rekenmachine
 
         private void Scannen_Click(object sender, RoutedEventArgs e)
         {
-            verder.IsEnabled = true;
-            verder.Opacity = 1;
+            if (pathText.Text == "Joejoe")
+            {
+                verder.IsEnabled = true;
+                verder.Opacity = 1;
+            }
+            else
+            {
+                pathText.Text = "Dacht het niet he";
+            }
+            
         }
     }
 }

@@ -26,7 +26,7 @@
 
         <TextBlock Text="Je moet ouder dan 15 zijn!" FontSize="50" Grid.Column="0" Grid.ColumnSpan="4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextAlignment="Center"/>
 
-        <TextBox Text="Voer hier je path in." FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" TextAlignment="Center"/>
+        <TextBox x:Name="pathText" Text="Voer hier je path in." FontSize="50" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" TextAlignment="Center"/>
 
         <Button x:Name="scannen" Content="Scannen" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="50" Click="Scannen_Click"/>
         <Button x:Name="verder" IsEnabled="False" Content="Verder" Click="NewScreen" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="50"/>

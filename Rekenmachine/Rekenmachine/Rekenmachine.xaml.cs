@@ -261,18 +261,18 @@ namespace Rekenmachine
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
         {
+            if (invoer != string.Empty)
+            {
+                Uitkomst.Text = "Voer iets in";
+            }
             if ((Convert.ToDouble(invoer) % 1) > 0)
             {
                 Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
             }
-            else if (invoer != string.Empty)
+            else
             {
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
                 Uitkomst.Text = Convert.ToString(hexa);
-            }
-            else
-            {
-                Uitkomst.Text = "Voer iets in";
             }
         }
     }
