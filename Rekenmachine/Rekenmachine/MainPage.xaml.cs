@@ -24,12 +24,21 @@ namespace Rekenmachine
 
         public void CEClick(object sender, RoutedEventArgs e)   //CE Knop, reset alle variabelen
         {
+<<<<<<< HEAD
             Uitkomst.FontSize = 64;     //Grote van de tekst
             Uitkomst.Text = "";         //Zorgt ervoor dat de tekstbalk leeg wordt
             invoer = string.Empty;      //Maakt de invoer leeg zodat de gebruiker opnieuw iets kan invoeren
             getal1 = string.Empty;      //Leegt de opslag van de eerste invoer
             getal2 = string.Empty;      //Leegt de opslag van de tweede invoer
             Som.Text = "";              //Zorgt ervoor dat het onderste tekstbalkje leeg wordt
+=======
+            Uitkomst.FontSize = 64; //Lettergroote van de Font
+            Uitkomst.Text = ""; //Hier komt de lege tekst te staan
+            invoer = string.Empty;
+            getal1 = string.Empty;
+            getal2 = string.Empty;
+            Som.Text = "";
+>>>>>>> e582a7e2758a30d2e9464bd57997fa674058f904
         }
 
         public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
