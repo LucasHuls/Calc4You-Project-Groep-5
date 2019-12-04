@@ -16,20 +16,20 @@ namespace Rekenmachine
             this.InitializeComponent();
         }
 
-        private string invoer = string.Empty; //Gebruikers invoer
-        private string getal1 = string.Empty; //Variabel opslag eerste invoer
-        private string getal2 = string.Empty; //Variabel opslag tweede invoer
-        private char operatie; //Operatie (X, /, %, -, + ETC...)
-        private double resultaat = 0.0; //Variabel eindresultaat
+        private string invoer = string.Empty;   //Gebruikers invoer
+        private string getal1 = string.Empty;   //Variabel opslag eerste invoer
+        private string getal2 = string.Empty;   //Variabel opslag tweede invoer
+        private char operatie;                  //Operatie (X, /, %, -, + ETC...)
+        private double resultaat = 0.0;         //Variabel eindresultaat
 
-        public void CEClick(object sender, RoutedEventArgs e) //CE Knop, reset alle variabelen
+        public void CEClick(object sender, RoutedEventArgs e)   //CE Knop, reset alle variabelen
         {
-            Uitkomst.FontSize = 64;
-            Uitkomst.Text = "";
-            invoer = string.Empty;
-            getal1 = string.Empty;
-            getal2 = string.Empty;
-            Som.Text = "";
+            Uitkomst.FontSize = 64;     //Grote van de tekst
+            Uitkomst.Text = "";         //Zorgt ervoor dat de tekstbalk leeg wordt
+            invoer = string.Empty;      //Maakt de invoer leeg zodat de gebruiker opnieuw iets kan invoeren
+            getal1 = string.Empty;      //Leegt de opslag van de eerste invoer
+            getal2 = string.Empty;      //Leegt de opslag van de tweede invoer
+            Som.Text = "";              //Zorgt ervoor dat het onderste tekstbalkje leeg wordt
         }
 
         public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
@@ -171,8 +171,8 @@ namespace Rekenmachine
 
             if (operatie == '+')
             {
-                resultaat = nummer1 + nummer2;
-                Uitkomst.Text = resultaat.ToString();
+                resultaat = nummer1 + nummer2;              //Als de oparatie '+' is worden nummer 1 en nummer 2 bij elkaar op geteld
+                Uitkomst.Text = resultaat.ToString();       
             }
             else if (operatie == '-')
             {
