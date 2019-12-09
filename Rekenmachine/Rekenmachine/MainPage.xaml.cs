@@ -32,6 +32,7 @@ namespace Rekenmachine
     {
         private FaceDetectionEffect _faceDetectionEffect;
         private MediaCapture _mediaCapture;
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -85,7 +86,7 @@ namespace Rekenmachine
         public async void FaceDetectionEffect_FaceDetected(
         FaceDetectionEffect sender, FaceDetectedEventArgs args)
         {
-            var detectedFaces = args.ResultFrame.DetectedFaces;
+            var detectedFaces = args.ResultFrame.DetectedFaces;            
 
             verder.IsEnabled = true;
             verder.Opacity = 1;
@@ -100,5 +101,5 @@ namespace Rekenmachine
             }
 
         }
-        }
     }
+}
