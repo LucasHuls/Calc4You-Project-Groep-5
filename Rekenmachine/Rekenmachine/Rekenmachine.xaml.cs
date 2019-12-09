@@ -240,8 +240,6 @@ namespace Rekenmachine
             {
                 Uitkomst.Text = "Voer iets in"; //Je kan geen 0 intypen.
             }
-
-
         }
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
@@ -272,7 +270,7 @@ namespace Rekenmachine
             else
             {
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
-                Uitkomst.Text = Convert.ToString(hexa);
+                Uitkomst.Text = Convert.ToString(hexa.ToUpper());
             }
         }
     }
