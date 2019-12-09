@@ -10,17 +10,23 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="320*"/>
-            <RowDefinition Height="389*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
 
-        <CaptureElement Name="cePreview" Stretch="Uniform" Grid.Row="0" />
-        <Canvas x:Name="cvsFaceOverlay" Grid.Row="0" ></Canvas>
-        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Margin="5">
-            <Button x:Name="btnCamera" Click="btnCamera_Click" >Turn on Camera</Button>
-            <Button x:Name="btnDetectFaces" Click="btnDetectFaces_Click" >Detect Faces</Button>
-            <Button x:Name="verder" Content="Verder" Click="NewScreen" IsEnabled="False" Opacity="0.5"/>
-        </StackPanel>
-
+        <TextBlock Text="Je moet ouder dan 15 zijn!" FontSize="50" TextAlignment="Center" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0"/>
+        <TextBox x:Name="path" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Text="Voer hier je path in" FontSize="50" TextAlignment="Center"/>
+        <Button x:Name="scannen" Content="Scan foto" FontSize="25" FontWeight="Bold" Grid.Row="3" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <Button x:Name="verder" IsEnabled="False" Opacity="0.5" Content="Verder" FontSize="25" FontWeight="Bold" Grid.Row="3" Grid.Column="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
     </Grid>
 </Page>

@@ -61,56 +61,10 @@ namespace Rekenmachine
             await ApplicationViewSwitcher.TryShowAsStandaloneAsync(newViewId, ViewSizePreference.UseMinimum);
 
             //Ervoor zorgen dat je niet maar 1 keer hoeft te scannen maar elke keer
-            verder.IsEnabled = false;
-            verder.Opacity = 0.5;
         }
-
-        private async void btnCamera_Click(object sender, RoutedEventArgs e)
-        {
-            _mediaCapture = new MediaCapture();
-            await _mediaCapture.InitializeAsync();
-            cePreview.Source = _mediaCapture;
-            await _mediaCapture.StartPreviewAsync();
-        }
-
-        private async void btnDetectFaces_Click(object sender, RoutedEventArgs e)
-        {
-            var faceDetectionDefinition = new FaceDetectionEffectDefinition();
-            faceDetectionDefinition.DetectionMode = FaceDetectionMode.HighPerformance;
-            faceDetectionDefinition.SynchronousDetectionEnabled = false;
-            _faceDetectionEffect = (FaceDetectionEffect)await
-            _mediaCapture.AddVideoEffectAsync(faceDetectionDefinition,
-            MediaStreamType.VideoPreview);
-            _faceDetectionEffect.FaceDetected += FaceDetectionEffect_FaceDetected;
-            _faceDetectionEffect.DesiredDetectionInterval = TimeSpan.FromMilliseconds(33);
-            _faceDetectionEffect.Enabled = true;
-        }
-
-        public async void FaceDetectionEffect_FaceDetected(
-        FaceDetectionEffect sender, FaceDetectedEventArgs args)
-        {
-            var detectedFaces = args.ResultFrame.DetectedFaces;            
-
-            verder.IsEnabled = true;
-            verder.Opacity = 1;
-
-            if (verder.IsEnabled == true)
-            {
-                _faceDetectionEffect.Enabled = false;
-                _faceDetectionEffect.FaceDetected -= FaceDetectionEffect_FaceDetected;
-                await _mediaCapture.ClearEffectsAsync(MediaStreamType.VideoPreview);
-                _faceDetectionEffect = null;
-                this.cvsFaceOverlay.Children.Clear();
-            }
-        }
-<<<<<<< HEAD
-    }
-}
-=======
-
         public class Program
         {
-            static void Main()
+            /*static void Main()
             {
                 Console.Write("pad van plaatje:");
                 string imageFilePath = Console.ReadLine();
@@ -119,7 +73,7 @@ namespace Rekenmachine
 
                 Console.WriteLine("\n\n\nResultaten...\n\n\n");
                 Console.ReadLine();
-            }
+            }*/
 
             static byte[] GetImageAsByteArray(string imageFilePath)
             {
@@ -160,4 +114,3 @@ namespace Rekenmachine
         }
     }
 }
->>>>>>> 91219a77f6eb4051da71c001e57059e3d6a18d91
