@@ -39,10 +39,10 @@ git clone https://github.com/LucasHuls/ScrumGroep5
 ```
 
 ## Team
-| Lucas Huls    						  | Bram van Nek 						   | Julian Moreno 		   					 | Sam Elfring 							| Jesse Overveld |
-| ------------- 						  | ------------- 						   | ------------- 		   					 | -------------  						| ------------- |
-| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> |
-| Notulist      						  | Deelnemer  							   | Deelnemer 								 | Bord-Schrijver  						| Scrumleader |
+| Lucas Huls    						  | Bram van Nek 						   | Julian Moreno 		   					 | Sam Elfring 							| Jesse Overveld | Jasper Tempelman |
+| ------------- 						  | ------------- 						   | ------------- 		   					 | -------------  						| ------------- | ------------- |
+| <img src="readme-bestanden/Lucas.png">  | <img src="readme-bestanden/Bram.png">  | <img src="readme-bestanden/Julian.png"> | <img src="readme-bestanden/Sam.png"> | <img src="readme-bestanden/Jesse.png"> | <img src="readme-bestanden/Jasper.png"> |
+| Notulist      						  | Deelnemer  							   | Deelnemer 								 | Bord-Schrijver  						| Scrumleader | Deelnemer |
 
 ## Contact
 Voor bugs en problemen kun je beter een issue achter laten klik <a href="https://github.com/LucasHuls/Calc4You-Project-Groep-5">hier</a>

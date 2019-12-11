@@ -1,29 +1,49 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+using Windows.Media.Capture;
+using Windows.Media.Core;
+using Windows.Media.FaceAnalysis;
+using Windows.Media.MediaProperties;
+using Windows.UI.Core;
+using Windows.UI.Xaml.Shapes;
+using Windows.UI;
+using Windows.Graphics.Imaging;
+using Windows.ApplicationModel.Core;
+using Windows.UI.ViewManagement;
+using System.Text;
+using System.Threading.Tasks;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Rekenmachine
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
+        private FaceDetectionEffect _faceDetectionEffect;
+        private MediaCapture _mediaCapture;
+
         public MainPage()
         {
             this.InitializeComponent();
         }
 
-        private string invoer = string.Empty; //Gebruikers invoer
-        private string getal1 = string.Empty; //Variabel opslag eerste invoer
-        private string getal2 = string.Empty; //Variabel opslag tweede invoer
-        private char operatie; //Operatie (X, /, %, -, + ETC...)
-        private double resultaat = 0.0; //Variabel eindresultaat
-
-        public void CEClick(object sender, RoutedEventArgs e) //CE Knop, reset alle variabelen
+        public async void NewScreen(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
             Uitkomst.FontSize = 64; //Lettergroote van de Font
             Uitkomst.Text = ""; //Hier komt de lege tekst te staan
             invoer = string.Empty; //Variabel invoer
@@ -63,71 +83,41 @@ namespace Rekenmachine
             invoer += 9; 
             Uitkomst.Text += invoer; 
         }
+=======
+            var MyView = CoreApplication.CreateNewView();
 
-        public void KeerClick(object sender, RoutedEventArgs e) //X, Keer Knop
-        {
-            getal1 = invoer;
-            Som.Text += "X";
-            operatie = 'X';
-            invoer = string.Empty;
+            int newViewId = 0;
+
+            await MyView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            {
+                Frame newFrame = new Frame();
+                newFrame.Navigate(typeof(Rekenmachine), null);
+
+                Window.Current.Content = newFrame;
+                Window.Current.Activate();
+
+                newViewId = ApplicationView.GetForCurrentView().Id;
+            });
+>>>>>>> fa72edb42a2fa524f029f488ba9aa9938d4a8fd3
+
+            await ApplicationViewSwitcher.TryShowAsStandaloneAsync(newViewId, ViewSizePreference.UseMinimum);
+
+            //Ervoor zorgen dat je niet maar 1 keer hoeft te scannen maar elke keer
         }
-
-        public void VierClick(object sender, RoutedEventArgs e) //Vier Knop
+        public class Program
         {
-            Uitkomst.Text = "";
-            Som.Text += "4";
-            invoer += 4;
-            Uitkomst.Text += invoer;
-        }
+            /*static void Main()
+            {
+                Console.Write("pad van plaatje:");
+                string imageFilePath = Console.ReadLine();
 
-        public void VijfClick(object sender, RoutedEventArgs e) //Vijf Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "5";
-            invoer += 5;
-            Uitkomst.Text += invoer;
-        }
+                MakeAnalysisRequest(imageFilePath);
 
-        public void ZesClick(object sender, RoutedEventArgs e) //Zes Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "6";
-            invoer += 6;
-            Uitkomst.Text += invoer;
-        }
+                Console.WriteLine("\n\n\nResultaten...\n\n\n");
+                Console.ReadLine();
+            }*/
 
-        public void MinClick(object sender, RoutedEventArgs e) //-, min knop
-        {
-            getal1 = invoer;
-            Som.Text += "-";
-            operatie = '-';
-            invoer = string.Empty;
-        }
-
-        public void EenClick(object sender, RoutedEventArgs e) //Één Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "1";
-            invoer += 1;
-            Uitkomst.Text += invoer;
-        }
-
-        public void TweeClick(object sender, RoutedEventArgs e) //Twee Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "2";
-            invoer += 2;
-            Uitkomst.Text += invoer;
-        }
-
-        public void DrieClick(object sender, RoutedEventArgs e) //Drie Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "3";
-            invoer += 3;
-            Uitkomst.Text += invoer;
-        }
-
+<<<<<<< HEAD
         public void PlusClick(object sender, RoutedEventArgs e) //+, Plus Knop
         {
             getal1 = invoer; //String invoer
@@ -143,24 +133,30 @@ namespace Rekenmachine
             operatie = '%'; //Procent uitvoer
             invoer = string.Empty; //Lege invoer
         }
+=======
+            static byte[] GetImageAsByteArray(string imageFilePath)
+            {
+                FileStream fileStream = new FileStream(imageFilePath, FileMode.Open, FileAccess.Read);
+                BinaryReader binaryReader = new BinaryReader(fileStream);
+                return binaryReader.ReadBytes((int)fileStream.Length);
+            }
 
-        public void NulClick(object sender, RoutedEventArgs e) //Nul Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "0";
-            invoer += 0;
-            Uitkomst.Text += invoer;
-        }
+            static async void MakeAnalysisRequest(string imageFilePath)
+            {
+                var client = new HttpClient();
+>>>>>>> fa72edb42a2fa524f029f488ba9aa9938d4a8fd3
 
-        public void KommaClick(object sender, RoutedEventArgs e) //Komma Knop
-        {
-            Som.Text += ",";
-            invoer += '.';
-            Uitkomst.Text += ",";
-            Convert.ToDouble(invoer);
-        }
+                // Request headers - replace this example key with your valid key.
+                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "230b4a3b313e43b9aab10e464672a601");
 
+                // Request parameters and URI string.
+                string queryString = "returnFaceId=true&returnFaceLandmarks=false&returnFaceAttributes=age,gender";
+                string uri = "https://facedetectionscrum.cognitiveservices.azure.com/face/v1.0/detect?" + queryString;
 
+                HttpResponseMessage response;
+                string responseContent;
+
+<<<<<<< HEAD
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer; //Variable
@@ -168,99 +164,22 @@ namespace Rekenmachine
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
             Som.Text = "";
+=======
+                // Request body. Try this sample with a locally stored JPEG image.
+                byte[] byteData = GetImageAsByteArray(imageFilePath);
+>>>>>>> fa72edb42a2fa524f029f488ba9aa9938d4a8fd3
 
-            if (operatie == '+')
-            {
-                resultaat = nummer1 + nummer2;
-                Uitkomst.Text = resultaat.ToString();
-            }
-            else if (operatie == '-')
-            {
-                resultaat = nummer1 - nummer2;
-                Uitkomst.Text = resultaat.ToString();
-            }
-            else if (operatie == 'X')
-            {
-                resultaat = nummer1 * nummer2;
-                Uitkomst.Text = resultaat.ToString();
-            }
-            else if (operatie == '/')
-            {
-                if (nummer2 != 0)
+                using (var content = new ByteArrayContent(byteData))
                 {
-                    resultaat = nummer1 / nummer2;
-                    Uitkomst.Text = resultaat.ToString();
+                    // This example uses content type "application/octet-stream".
+                    // The other content types you can use are "application/json" and "multipart/form-data".
+                    content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+                    response = await client.PostAsync(uri, content);
+                    responseContent = response.Content.ReadAsStringAsync().Result;
                 }
-                else
-                {
-                    Uitkomst.Text = "Je kunt niet delen door 0!";
-                }
-            }
-            else if (operatie == '%')
-            {
-                resultaat = nummer1 % nummer2;
-                Uitkomst.Text = resultaat.ToString();
-            }
-        }
 
-        private void EurDollarClick(object sender, RoutedEventArgs e) //Euro/Dollar Knop
-        {
-            if (invoer != "")
-            {
-                double euro = Convert.ToDouble(invoer);
-                euro *= 1.1083;
-                Uitkomst.Text = euro.ToString();
-            }
-            else
-            {
-                Uitkomst.Text = "Voer iets in";
-            }
-        }
-
-        private void BinearClick(object sender, RoutedEventArgs e) //Binaire Knop
-        {
-            if (invoer != string.Empty)
-            {
-                int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
-                string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
-                Uitkomst.Text = binair1;
-            }
-            else
-            {
-                Uitkomst.Text = "Voer iets in"; //Je kan geen 0 intypen.
-            }
-            
-                
-        }
-        private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
-        {
-            if (Uitkomst.Text != "") {
-            double plusMin = Convert.ToDouble(invoer);
-            plusMin -= plusMin * 2;
-            invoer = Convert.ToString(plusMin);
-            Uitkomst.Text = invoer;
-
-            }
-            else
-            {
-                Uitkomst.Text = "Voer iets in";
-            }
-        }
-
-        private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
-        {
-            if ((Convert.ToDouble(invoer) % 1) > 0)
-            {
-                Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
-            }
-            else if (invoer != string.Empty)
-            {
-                var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
-                Uitkomst.Text = Convert.ToString(hexa);
-            }
-            else
-            {
-                Uitkomst.Text = "Voer iets in";
+                //A peak at the JSON response.
+                Console.WriteLine(responseContent);
             }
         }
     }
