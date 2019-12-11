@@ -26,42 +26,42 @@ namespace Rekenmachine
         {
             Uitkomst.FontSize = 64; //Lettergroote van de Font
             Uitkomst.Text = ""; //Hier komt de lege tekst te staan
-            invoer = string.Empty;
-            getal1 = string.Empty;
-            getal2 = string.Empty;
-            Som.Text = "";
+            invoer = string.Empty; //Variabel invoer
+            getal1 = string.Empty; //getal 1 invoer
+            getal2 = string.Empty; //getal 2 invoer
+            Som.Text = ""; //Uitkomst invoer
         }
 
         public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
         {
-            getal1 = invoer;
-            Som.Text += "/";
-            operatie = '/';
-            invoer = string.Empty;
+            getal1 = invoer; //Variabele getal 1
+            Som.Text += "/"; //Lege invoer
+            operatie = '/'; //Variabele
+            invoer = string.Empty; //Maakt de string leeg   
         }
 
         public void ZevenClick(object sender, RoutedEventArgs e) //Zeven Knop
         {
-            Uitkomst.Text = "";
-            Som.Text += "7";
-            invoer += 7;
-            Uitkomst.Text += invoer;
+            Uitkomst.Text = ""; //Lege uitkomst
+            Som.Text += "7"; //Invoer zeven
+            invoer += 7; //Invoer variabele
+            Uitkomst.Text += invoer; //Uitkomst van veriabele invoer
         }
 
         public void AchtClick(object sender, RoutedEventArgs e) //Acht Knop
         {
-            Uitkomst.Text = "";
-            Som.Text += "8";
-            invoer += 8;
-            Uitkomst.Text += invoer;
+            Uitkomst.Text = ""; 
+            Som.Text += "8"; 
+            invoer += 8; 
+            Uitkomst.Text += invoer; 
         }
 
         public void NegenClick(object sender, RoutedEventArgs e) //Negen Knop
         {
-            Uitkomst.Text = "";
-            Som.Text += "9";
-            invoer += 9;
-            Uitkomst.Text += invoer;
+            Uitkomst.Text = ""; 
+            Som.Text += "9"; 
+            invoer += 9; 
+            Uitkomst.Text += invoer; 
         }
 
         public void KeerClick(object sender, RoutedEventArgs e) //X, Keer Knop
@@ -130,18 +130,18 @@ namespace Rekenmachine
 
         public void PlusClick(object sender, RoutedEventArgs e) //+, Plus Knop
         {
-            getal1 = invoer;
-            Som.Text += "+";
-            operatie = '+';
-            invoer = string.Empty;
+            getal1 = invoer; //String invoer
+            Som.Text += "+"; //Som neemt toe
+            operatie = '+'; //Uitvoering
+            invoer = string.Empty; //Lege string
         }
 
         public void ModuloClick(object sender, RoutedEventArgs e) //%, Modulo Knop
         {
-            getal1 = invoer;
-            Som.Text += "%";
-            operatie = '%';
-            invoer = string.Empty;
+            getal1 = invoer; //Variable invoer
+            Som.Text += "%"; //Som procent
+            operatie = '%'; //Procent uitvoer
+            invoer = string.Empty; //Lege invoer
         }
 
         public void NulClick(object sender, RoutedEventArgs e) //Nul Knop
@@ -163,7 +163,7 @@ namespace Rekenmachine
 
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
-            getal2 = invoer;
+            getal2 = invoer; //Variable
             double nummer1, nummer2;
             double.TryParse(getal1, out nummer1);
             double.TryParse(getal2, out nummer2);
