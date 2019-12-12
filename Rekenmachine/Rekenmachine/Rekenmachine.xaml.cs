@@ -1,27 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Data.SqlClient;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Rekenmachine
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class Rekenmachine : Page
     {
+        public void SQL()
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas; Password=admin"); //Connection string met alle gegevens
+            SqlCommand command = new SqlCommand("SELECT * FROM berekeningen ORDER BY ID DESC", conn); //SQL Command omgezet naar een C# command
+            BerekeningDB.Items.Clear(); //Leeg de Lijst voordat hij word gerefresht
+
+            try
+            {
+                conn.Open(); //open SQL verbinding
+                SqlDataReader reader = command.ExecuteReader(); //Voer de omgezette SQL command uit
+                while (reader.Read())
+                {
+                    BerekeningDB.Items.Add(reader["Berekening"].ToString()); //Bij veranderingen is de DB voeg deze toe aan de List
+                }
+
+                reader.Close();
+            }
+            finally
+            {
+                conn.Close(); //Sluit de SQL verbinding
+            }
+        }
         public Rekenmachine()
         {
             this.InitializeComponent();
@@ -221,10 +231,26 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
             tijdelijk = Convert.ToDouble(Uitkomst.Text); //Tijdelijke opslag zodat je verder kan werken vanaf uitkomst getal
-            getal1 = string.Empty; //reset
-            getal2 = string.Empty; //reset
-            invoer = string.Empty; //reset
-            invoer += tijdelijk; //variabel tijdelijk gebruiken om verder te rekenen vanaf de uitkomst
+
+            string connetionString; //De Connectionstring is een variabele
+            SqlConnection cnn; //Cnn is de command voor de SQLConnection
+            connetionString = @"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You; User Id=Lucas; Password=admin"; //Connection string met alle gegevens
+            cnn = new SqlConnection(connetionString);
+            cnn.Open(); //Zet de SQL connection open
+
+            SqlCommand command; //SQL Command is command
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            string sql = ""; //Lege string bij startup
+            string berekening = (getal1 + operatie + getal2);
+            sql = "insert into Berekeningen (Berekening,Uitkomst) values('" + berekening + "', '" + Uitkomst.Text + "')"; //Betreffende SQL cmd die word uitgevoerd
+
+            command = new SqlCommand(sql, cnn);
+
+            adapter.InsertCommand = new SqlCommand(sql, cnn);
+            adapter.InsertCommand.ExecuteNonQuery();
+
+            cnn.Close(); //Zet de SQL Connection dicht
+            SQL(); //Refresh de List
         }
 
         private void EurDollarClick(object sender, RoutedEventArgs e) //Euro/Dollar Knop
@@ -285,6 +311,22 @@ namespace Rekenmachine
                 var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
                 Uitkomst.Text = Convert.ToString(hexa.ToUpper());
             }
+        }
+
+        private void Leeg_Click(object sender, RoutedEventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas; Password=admin"); //Connection string met alle gegevens
+            SqlCommand command = new SqlCommand("DELETE FROM berekeningen", conn); //Betreffende SQL cmd die word uitgevoerd
+            conn.Open(); //Zet de SQL Connection open
+            SqlDataReader reader = command.ExecuteReader();
+            conn.Close(); //Zet de SQL Connection dicht
+            SQL(); //Refresh de List
+        }
+
+        private void Gebruik_Click(object sender, RoutedEventArgs e)
+        {
+            string usehis = BerekeningDB.Items[BerekeningDB.SelectedIndex].ToString();
+            Uitkomst.Text = usehis;
         }
     }
 }

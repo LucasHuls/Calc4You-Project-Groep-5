@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" d:DesignWidth="1542.5" d:DesignHeight="1049.5">
 
     <Grid>
         <Grid>
@@ -26,15 +26,17 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.75*"/>
+                <ColumnDefinition Width="0.75*"/>
             </Grid.ColumnDefinitions>
             <!--Tekstblokken-->
-            <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="64" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4"/>
+            <TextBox x:Name="Uitkomst" Grid.Column="0" Grid.Row="0" IsReadOnly="True" Text="" TextWrapping="Wrap" FontSize="64" FontFamily="Calibri" TextAlignment="Right" Grid.ColumnSpan="4" Grid.RowSpan="9"/>
             <TextBox x:Name="Som" Grid.Column="0" Margin="0,0,0,0" Grid.Row="1" Grid.ColumnSpan="4" IsReadOnly="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="" FontSize="24" TextWrapping="Wrap" TextAlignment="Right"/>
 
             <!--Knoppen-->
             <Button x:Name="CE" FontWeight="Bold" Background="Orange" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CEClick" Grid.Row="2"/>
             <Button x:Name="Hexadecimaal" FontWeight="Bold" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexaDecimaalClick" Grid.Row="2" Grid.Column="1"/>
-            <Button x:Name="EurDollar" FontWeight="Bold" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="2" Grid.RowSpan="2" Grid.Column="2"/>
+            <Button x:Name="EurDollar" FontWeight="Bold" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2"/>
             <Button x:Name="Delen" FontWeight="Bold" Grid.Column="3" Margin="0,3,3,0" Content="/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="DelenClick" Grid.RowSpan="2" Grid.Row="2"/>
 
             <Button x:Name="Modulo" FontWeight="Bold" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="%" VerticalAlignment="Stretch" Click="ModuloClick" HorizontalAlignment="Stretch" MinHeight="20"/>
@@ -43,7 +45,7 @@
             <Button x:Name="Zeven" FontWeight="Bold" Grid.Column="0" Margin="0,3,3,0" Content="7" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="ZevenClick" Grid.Row="4"/>
             <Button x:Name="Acht" FontWeight="Bold" Grid.Column="1" Margin="0,3,3,0" Content="8" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="AchtClick" Grid.Row="4"/>
             <Button x:Name="Negen" FontWeight="Bold" Grid.Column="2" Margin="0,3,3,0" Content="9" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="NegenClick" Grid.Row="4"/>
-            <Button x:Name="Keer" FontWeight="Bold" Content="X" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="KeerClick" Grid.Row="4" Grid.Column="4"/>
+            <Button x:Name="Keer" FontWeight="Bold" Content="X" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="KeerClick" Grid.Row="4" Grid.Column="3"/>
 
             <Button x:Name="Vier" FontWeight="Bold" Grid.Column="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="4" Click="VierClick" Grid.Row="5"/>
             <Button x:Name="Vijf" FontWeight="Bold" Grid.Column="1" Margin="0,3,3,0" Content="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="VijfClick" Grid.Row="5"/>
@@ -59,6 +61,16 @@
             <Button x:Name="Nul" FontWeight="Bold" Content="0" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Click="NulClick" Grid.Row="7"/>
             <Button x:Name="Komma" FontWeight="Bold" Content="," Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Click="KommaClick" Grid.Row="7"/>
             <Button x:Name="Is" FontWeight="Bold" Content="=" Background="Orange" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="IsClick" Grid.Column="3" Grid.Row="7"/>
+
+            <!--Database-->
+
+
+            <ListView x:Name="BerekeningDB" Grid.RowSpan="9" Grid.Column="4" Grid.ColumnSpan="2" ShowsScrollingPlaceholders="True"/>
+            <Button x:Name="Gebruik" Content="Gebruik" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="7" Grid.Column="4" FontWeight="Bold" Click="Gebruik_Click"/>
+            <Button x:Name="Leeg" Content="Leeg" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="7" Grid.Column="5" FontWeight="Bold" Click="Leeg_Click"/>
+
+
+
 
         </Grid>
 
