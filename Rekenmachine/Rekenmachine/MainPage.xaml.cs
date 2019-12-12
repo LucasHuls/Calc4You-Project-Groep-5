@@ -32,7 +32,6 @@ namespace Rekenmachine
             {
                 Frame newFrame = new Frame();
                 newFrame.Navigate(typeof(Rekenmachine), null);
-
                 Window.Current.Content = newFrame;
                 Window.Current.Activate();
 
@@ -83,7 +82,7 @@ namespace Rekenmachine
             client.DefaultRequestHeaders.Add(
                 "Ocp-Apim-Subscription-Key", subscriptionKey);
 
-            // Request parameters. A third optional parameter is "details". 
+            // Request parameters. A third optional parameter is "details".
             string requestParameters = "&returnFaceAttributes=age";
             // Assemble the URI for the REST API Call.
             string uri = uriBase + "?" + requestParameters;
@@ -112,7 +111,6 @@ namespace Rekenmachine
 
                 // Display the JSON response.
                 path.Text = "Leeftijd = " + faceobj[0]["faceAttributes"]["age"];
-                
                 if (faceobj[0]["faceAttributes"]["age"] >= 15)
                 {
                     verder.IsEnabled = true;
@@ -140,8 +138,6 @@ namespace Rekenmachine
         public void Klik(object sender, RoutedEventArgs e)
         {
             Main();
-            
-            
         }
     }
 }

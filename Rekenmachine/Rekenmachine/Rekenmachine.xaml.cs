@@ -32,10 +32,11 @@ namespace Rekenmachine
         private string getal2 = string.Empty;   //Variabel opslag tweede invoer
         private char operatie;                  //Operatie (X, /, %, -, + ETC...)
         private double resultaat = 0.0;         //Variabel eindresultaat
+        private double tijdelijk = 0.0;         //Tijdelijk voor getal 3
 
         public void CEClick(object sender, RoutedEventArgs e)   //CE Knop, reset alle variabelen
         {
-            Uitkomst.FontSize = 64;     //Grote van de tekst
+            Uitkomst.FontSize = 64;     //Grootte van de tekst
             Uitkomst.Text = "";         //Zorgt ervoor dat de tekstbalk leeg wordt
             invoer = string.Empty;      //Maakt de invoer leeg zodat de gebruiker opnieuw iets kan invoeren
             getal1 = string.Empty;      //Leegt de opslag van de eerste invoer
@@ -165,10 +166,17 @@ namespace Rekenmachine
 
         public void KommaClick(object sender, RoutedEventArgs e) //Komma Knop
         {
-            Som.Text += ",";
-            invoer += '.';
-            Uitkomst.Text += ",";
-            Convert.ToDouble(invoer);
+            if (invoer == "")
+            {
+                Uitkomst.Text = "Voer iets in";
+            }
+            else
+            {
+                Som.Text += ",";
+                invoer += '.';
+                Uitkomst.Text += ",";
+                Convert.ToDouble(invoer);
+            }
         }
 
 
@@ -212,6 +220,11 @@ namespace Rekenmachine
                 resultaat = nummer1 % nummer2;
                 Uitkomst.Text = resultaat.ToString();
             }
+            tijdelijk = Convert.ToDouble(Uitkomst.Text); //Tijdelijke opslag zodat je verder kan werken vanaf uitkomst getal
+            getal1 = ""; //reset
+            getal2 = ""; //reset
+            invoer = ""; //reset
+            invoer += tijdelijk; //variabel tijdelijk gebruiken om verder te rekenen vanaf de uitkomst
         }
 
         private void EurDollarClick(object sender, RoutedEventArgs e) //Euro/Dollar Knop
@@ -230,7 +243,7 @@ namespace Rekenmachine
 
         private void BinearClick(object sender, RoutedEventArgs e) //Binaire Knop
         {
-            if (invoer != string.Empty)
+            if (invoer != "")
             {
                 int invoerBinair = Convert.ToInt32(invoer); //Gebruikers input naar binairvariabel
                 string binair1 = Convert.ToString(invoerBinair, 2); //base2 voor binaire encoding (radix)
@@ -259,11 +272,11 @@ namespace Rekenmachine
 
         private void HexaDecimaalClick(object sender, RoutedEventArgs e) //Hexadecimaal Knop
         {
-            if (invoer != string.Empty)
+            if (invoer == "")
             {
                 Uitkomst.Text = "Voer iets in";
             }
-            if ((Convert.ToDouble(invoer) % 1) > 0)
+            else if ((Convert.ToDouble(invoer) % 1) > 0)
             {
                 Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
             }
