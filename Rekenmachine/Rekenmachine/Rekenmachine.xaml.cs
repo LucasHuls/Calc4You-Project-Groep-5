@@ -221,9 +221,9 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
             tijdelijk = Convert.ToDouble(Uitkomst.Text); //Tijdelijke opslag zodat je verder kan werken vanaf uitkomst getal
-            getal1 = ""; //reset
-            getal2 = ""; //reset
-            invoer = ""; //reset
+            getal1 = string.Empty; //reset
+            getal2 = string.Empty; //reset
+            invoer = string.Empty; //reset
             invoer += tijdelijk; //variabel tijdelijk gebruiken om verder te rekenen vanaf de uitkomst
         }
 
