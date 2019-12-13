@@ -10,9 +10,10 @@ namespace Rekenmachine
 
     public sealed partial class Rekenmachine : Page
     {
+        string usehisAntwoord;
         public void SQL()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas; Password=admin"); //Connection string met alle gegevens
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
             SqlCommand command = new SqlCommand("SELECT * FROM berekeningen ORDER BY ID DESC", conn); //SQL Command omgezet naar een C# command
             BerekeningDB.Items.Clear(); //Leeg de Lijst voordat hij word gerefresht
 
@@ -23,6 +24,7 @@ namespace Rekenmachine
                 while (reader.Read())
                 {
                     BerekeningDB.Items.Add(reader["Berekening"].ToString()); //Bij veranderingen is de DB voeg deze toe aan de List
+                    usehisAntwoord = reader["Uitkomst"].ToString();
                 }
 
                 reader.Close();
@@ -42,7 +44,6 @@ namespace Rekenmachine
         private string getal2 = string.Empty;   //Variabel opslag tweede invoer
         private char operatie;                  //Operatie (X, /, %, -, + ETC...)
         private double resultaat = 0.0;         //Variabel eindresultaat
-        private double tijdelijk = 0.0;         //Tijdelijk voor getal 3
 
         public void CEClick(object sender, RoutedEventArgs e)   //CE Knop, reset alle variabelen
         {
@@ -189,7 +190,6 @@ namespace Rekenmachine
             }
         }
 
-
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
@@ -230,19 +230,18 @@ namespace Rekenmachine
                 resultaat = nummer1 % nummer2;
                 Uitkomst.Text = resultaat.ToString();
             }
-            tijdelijk = Convert.ToDouble(Uitkomst.Text); //Tijdelijke opslag zodat je verder kan werken vanaf uitkomst getal
 
             string connetionString; //De Connectionstring is een variabele
             SqlConnection cnn; //Cnn is de command voor de SQLConnection
-            connetionString = @"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You; User Id=Lucas; Password=admin"; //Connection string met alle gegevens
+            connetionString = @"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You; User Id=Sam; Password=admin"; //Connection string met alle gegevens
             cnn = new SqlConnection(connetionString);
             cnn.Open(); //Zet de SQL connection open
 
             SqlCommand command; //SQL Command is command
             SqlDataAdapter adapter = new SqlDataAdapter();
-            string sql = ""; //Lege string bij startup
+            string sql = string.Empty; //Lege string bij startup
             string berekening = (getal1 + operatie + getal2);
-            sql = "insert into Berekeningen (Berekening,Uitkomst) values('" + berekening + "', '" + Uitkomst.Text + "')"; //Betreffende SQL cmd die word uitgevoerd
+            sql = "insert into Berekeningen (Berekening,Uitkomst) values('" + berekening + "', '" + resultaat + "')"; //Betreffende SQL cmd die word uitgevoerd
 
             command = new SqlCommand(sql, cnn);
 
@@ -315,7 +314,7 @@ namespace Rekenmachine
 
         private void Leeg_Click(object sender, RoutedEventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas; Password=admin"); //Connection string met alle gegevens
+            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
             SqlCommand command = new SqlCommand("DELETE FROM berekeningen", conn); //Betreffende SQL cmd die word uitgevoerd
             conn.Open(); //Zet de SQL Connection open
             SqlDataReader reader = command.ExecuteReader();
@@ -326,7 +325,8 @@ namespace Rekenmachine
         private void Gebruik_Click(object sender, RoutedEventArgs e)
         {
             string usehis = BerekeningDB.Items[BerekeningDB.SelectedIndex].ToString();
-            Uitkomst.Text = usehis;
+            Uitkomst.Text = usehisAntwoord;
+            invoer = usehisAntwoord;
         }
     }
 }
