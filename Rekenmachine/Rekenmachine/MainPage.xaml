@@ -28,5 +28,6 @@
         <TextBox x:Name="path" IsReadOnly="True" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Text="" FontSize="50" TextAlignment="Center"/>
         <Button x:Name="kies" Content="Kies foto" FontSize="25" FontWeight="Bold" Grid.Row="3" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Klik"/>
         <Button x:Name="verder" IsEnabled="False" Opacity="0.5" Content="Verder" FontSize="25" FontWeight="Bold" Grid.Row="3" Grid.Column="3" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="NewScreen"/>
+        
     </Grid>
 </Page>
