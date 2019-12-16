@@ -39,12 +39,15 @@ namespace Rekenmachine
             this.InitializeComponent();
         }
 
+        //Variabelen aanmaken
         private string invoer = string.Empty;   //Gebruikers invoer
         private string getal1 = string.Empty;   //Variabel opslag eerste invoer
         private string getal2 = string.Empty;   //Variabel opslag tweede invoer
         private char operatie;                  //Operatie (X, /, %, -, + ETC...)
         private double resultaat = 0.0;         //Variabel eindresultaat
 
+
+        //CE knop
         public void CEClick(object sender, RoutedEventArgs e)   //CE Knop, reset alle variabelen
         {
             Uitkomst.FontSize = 64;     //Grootte van de tekst
@@ -55,36 +58,22 @@ namespace Rekenmachine
             Som.Text = "";              //Zorgt ervoor dat het onderste tekstbalkje leeg wordt
         }
 
-        public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
+
+        //Operaties
+        public void PlusClick(object sender, RoutedEventArgs e) //+, Plus Knop
         {
             getal1 = invoer;
-            Som.Text += "/";
-            operatie = '/';
+            Som.Text += "+";
+            operatie = '+';
             invoer = string.Empty;
         }
 
-        public void ZevenClick(object sender, RoutedEventArgs e) //Zeven Knop
+        public void MinClick(object sender, RoutedEventArgs e) //-, min knop
         {
-            Uitkomst.Text = "";
-            Som.Text += "7";
-            invoer += 7;
-            Uitkomst.Text += invoer;
-        }
-
-        public void AchtClick(object sender, RoutedEventArgs e) //Acht Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "8";
-            invoer += 8;
-            Uitkomst.Text += invoer;
-        }
-
-        public void NegenClick(object sender, RoutedEventArgs e) //Negen Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "9";
-            invoer += 9;
-            Uitkomst.Text += invoer;
+            getal1 = invoer;
+            Som.Text += "-";
+            operatie = '-';
+            invoer = string.Empty;
         }
 
         public void KeerClick(object sender, RoutedEventArgs e) //X, Keer Knop
@@ -95,36 +84,30 @@ namespace Rekenmachine
             invoer = string.Empty;
         }
 
-        public void VierClick(object sender, RoutedEventArgs e) //Vier Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "4";
-            invoer += 4;
-            Uitkomst.Text += invoer;
-        }
-
-        public void VijfClick(object sender, RoutedEventArgs e) //Vijf Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "5";
-            invoer += 5;
-            Uitkomst.Text += invoer;
-        }
-
-        public void ZesClick(object sender, RoutedEventArgs e) //Zes Knop
-        {
-            Uitkomst.Text = "";
-            Som.Text += "6";
-            invoer += 6;
-            Uitkomst.Text += invoer;
-        }
-
-        public void MinClick(object sender, RoutedEventArgs e) //-, min knop
+        public void DelenClick(object sender, RoutedEventArgs e) //Delen Knop
         {
             getal1 = invoer;
-            Som.Text += "-";
-            operatie = '-';
+            Som.Text += "/";
+            operatie = '/';
             invoer = string.Empty;
+        }
+
+        public void ModuloClick(object sender, RoutedEventArgs e) //%, Modulo Knop
+        {
+            getal1 = invoer;
+            Som.Text += "%";
+            operatie = '%';
+            invoer = string.Empty;
+        }
+
+
+        //Getallen
+        public void NulClick(object sender, RoutedEventArgs e) //Nul Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "0";
+            invoer += 0;
+            Uitkomst.Text += invoer;
         }
 
         public void EenClick(object sender, RoutedEventArgs e) //Één Knop
@@ -151,30 +134,56 @@ namespace Rekenmachine
             Uitkomst.Text += invoer;
         }
 
-        public void PlusClick(object sender, RoutedEventArgs e) //+, Plus Knop
-        {
-            getal1 = invoer;
-            Som.Text += "+";
-            operatie = '+';
-            invoer = string.Empty;
-        }
-
-        public void ModuloClick(object sender, RoutedEventArgs e) //%, Modulo Knop
-        {
-            getal1 = invoer;
-            Som.Text += "%";
-            operatie = '%';
-            invoer = string.Empty;
-        }
-
-        public void NulClick(object sender, RoutedEventArgs e) //Nul Knop
+        public void VierClick(object sender, RoutedEventArgs e) //Vier Knop
         {
             Uitkomst.Text = "";
-            Som.Text += "0";
-            invoer += 0;
+            Som.Text += "4";
+            invoer += 4;
             Uitkomst.Text += invoer;
         }
 
+        public void VijfClick(object sender, RoutedEventArgs e) //Vijf Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "5";
+            invoer += 5;
+            Uitkomst.Text += invoer;
+        }
+
+        public void ZesClick(object sender, RoutedEventArgs e) //Zes Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "6";
+            invoer += 6;
+            Uitkomst.Text += invoer;
+        }
+
+        public void ZevenClick(object sender, RoutedEventArgs e) //Zeven Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "7";
+            invoer += 7;
+            Uitkomst.Text += invoer;
+        }
+
+        public void AchtClick(object sender, RoutedEventArgs e) //Acht Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "8";
+            invoer += 8;
+            Uitkomst.Text += invoer;
+        }
+
+        public void NegenClick(object sender, RoutedEventArgs e) //Negen Knop
+        {
+            Uitkomst.Text = "";
+            Som.Text += "9";
+            invoer += 9;
+            Uitkomst.Text += invoer;
+        }
+
+        
+        //Komma
         public void KommaClick(object sender, RoutedEventArgs e) //Komma Knop
         {
             if (invoer == "")
@@ -190,35 +199,37 @@ namespace Rekenmachine
             }
         }
 
+
+        //IS-knop
         public void IsClick(object sender, RoutedEventArgs e) //=, is knop
         {
             getal2 = invoer;
             double nummer1, nummer2;
-            double.TryParse(getal1, out nummer1);
-            double.TryParse(getal2, out nummer2);
+            double.TryParse(getal1, out nummer1);   //Probeert van de string 'getal1' een double te maken
+            double.TryParse(getal2, out nummer2);   //Probeert van de string 'getal2' een double te maken
             Som.Text = "";
 
             if (operatie == '+')
             {
                 resultaat = nummer1 + nummer2;              //Als de oparatie '+' is worden nummer 1 en nummer 2 bij elkaar op geteld
-                Uitkomst.Text = resultaat.ToString();
+                Uitkomst.Text = resultaat.ToString();       //Het resultaat wordt omgezet naar een string en dan getoont aan de gebruiker
             }
             else if (operatie == '-')
             {
-                resultaat = nummer1 - nummer2;
-                Uitkomst.Text = resultaat.ToString();
+                resultaat = nummer1 - nummer2;              //Als de oparatie '-' is worden nummer 1 en nummer 2 van elkaar afgetrokken
+                Uitkomst.Text = resultaat.ToString();       //Het resultaat wordt omgezet naar een string en dan getoont aan de gebruiker
             }
             else if (operatie == 'X')
             {
-                resultaat = nummer1 * nummer2;
-                Uitkomst.Text = resultaat.ToString();
+                resultaat = nummer1 * nummer2;              //Als de oparatie 'X' is worden nummer 1 en nummer 2 keer ekaar gedaan
+                Uitkomst.Text = resultaat.ToString();       //Het resultaat wordt omgezet naar een string en dan getoont aan de gebruiker
             }
             else if (operatie == '/')
             {
-                if (nummer2 != 0)
+                if (nummer2 != 0)                           //Zorgt ervoor dat je niet door 0 kan delen
                 {
-                    resultaat = nummer1 / nummer2;
-                    Uitkomst.Text = resultaat.ToString();
+                    resultaat = nummer1 / nummer2;          //Als de oparatie '/' is worden nummer 1 en nummer 2 door elkaar gedeeld
+                    Uitkomst.Text = resultaat.ToString();   //Het resultaat wordt omgezet naar een string en dan getoont aan de gebruiker
                 }
                 else
                 {
@@ -231,15 +242,16 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
 
-            string connetionString; //De Connectionstring is een variabele
-            SqlConnection cnn; //Cnn is de command voor de SQLConnection
+            //Verbinden met database
+            string connetionString;                                     //De Connectionstring is een variabele
+            SqlConnection cnn;                                          //Cnn is de command voor de SQLConnection
             connetionString = @"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You; User Id=Sam; Password=admin"; //Connection string met alle gegevens
             cnn = new SqlConnection(connetionString);
-            cnn.Open(); //Zet de SQL connection open
+            cnn.Open();                                                 //Zet de SQL connection open
 
-            SqlCommand command; //SQL Command is command
+            SqlCommand command;                                         //SQL Command is command
             SqlDataAdapter adapter = new SqlDataAdapter();
-            string sql = string.Empty; //Lege string bij startup
+            string sql = string.Empty;                                  //Lege string bij startup
             string berekening = (getal1 + operatie + getal2);
             sql = "insert into Berekeningen (Berekening,Uitkomst) values('" + berekening + "', '" + resultaat + "')"; //Betreffende SQL cmd die word uitgevoerd
 
@@ -252,6 +264,8 @@ namespace Rekenmachine
             SQL(); //Refresh de List
         }
 
+
+        //Speciale knoppen
         private void EurDollarClick(object sender, RoutedEventArgs e) //Euro/Dollar Knop
         {
             if (invoer != "")
@@ -279,6 +293,7 @@ namespace Rekenmachine
                 Uitkomst.Text = "Voer iets in"; //Je kan geen 0 intypen.
             }
         }
+
         private void PlusMinClick(object sender, RoutedEventArgs e) //Negatief/Positief Knop
         {
             if (Uitkomst.Text != "")
@@ -299,29 +314,31 @@ namespace Rekenmachine
         {
             if (invoer == "")
             {
-                Uitkomst.Text = "Voer iets in";
+                Uitkomst.Text = "Voer iets in";                                 //Als er niks in ingevoerd wordt ingevoerd
             }
-            else if ((Convert.ToDouble(invoer) % 1) > 0)
+            else if ((Convert.ToDouble(invoer) % 1) > 0)                        //Als het een kommagetal is
             {
                 Uitkomst.Text = "Hexadecimaal kan geen kommagetal zijn";
             }
             else
             {
-                var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);
-                Uitkomst.Text = Convert.ToString(hexa.ToUpper());
+                var hexa = Convert.ToString(Convert.ToInt32(invoer), 16);       //Maakt van de uitkomst hoofdletters en
+                Uitkomst.Text = Convert.ToString(hexa.ToUpper());               //laat het dan in de rekenmachine zien
             }
         }
 
+        //Database leegmaken
         private void Leeg_Click(object sender, RoutedEventArgs e)
         {
             SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
             SqlCommand command = new SqlCommand("DELETE FROM berekeningen", conn); //Betreffende SQL cmd die word uitgevoerd
-            conn.Open(); //Zet de SQL Connection open
+            conn.Open();                                                           //Zet de SQL Connection open
             SqlDataReader reader = command.ExecuteReader();
-            conn.Close(); //Zet de SQL Connection dicht
-            SQL(); //Refresh de List
+            conn.Close();                                                          //Zet de SQL Connection dicht
+            SQL();                                                                 //Refresh de List
         }
 
+        //Berekening terugzetten in rekenmachine
         private void Gebruik_Click(object sender, RoutedEventArgs e)
         {
             string usehis = BerekeningDB.Items[BerekeningDB.SelectedIndex].ToString();
