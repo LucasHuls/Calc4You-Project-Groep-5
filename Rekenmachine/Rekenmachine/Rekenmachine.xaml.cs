@@ -10,7 +10,7 @@ namespace Rekenmachine
 
     public sealed partial class Rekenmachine : Page
     {
-        string usehisAntwoord;
+        //SQL
         public void SQL()
         {
             SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
@@ -45,6 +45,8 @@ namespace Rekenmachine
         private string getal2 = string.Empty;   //Variabel opslag tweede invoer
         private char operatie;                  //Operatie (X, /, %, -, + ETC...)
         private double resultaat = 0.0;         //Variabel eindresultaat
+
+        string usehisAntwoord;                  //Database user history
 
 
         //CE knop
