@@ -41,6 +41,7 @@ namespace Rekenmachine
             await ApplicationViewSwitcher.TryShowAsStandaloneAsync(newViewId, ViewSizePreference.UseMinimum);
         }
 
+
         // Replace <Subscription Key> with your valid subscription key.
         const string subscriptionKey = "230b4a3b313e43b9aab10e464672a601";
 

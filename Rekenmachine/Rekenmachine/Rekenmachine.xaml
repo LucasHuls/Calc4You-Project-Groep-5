@@ -36,7 +36,7 @@
             <!--Knoppen-->
             <Button x:Name="CE" FontWeight="Bold" Background="Orange" Content="CE" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="CEClick" Grid.Row="2"/>
             <Button x:Name="Hexadecimaal" FontWeight="Bold" Content="Hx" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="HexaDecimaalClick" Grid.Row="2" Grid.Column="1"/>
-            <Button x:Name="EurDollar" FontWeight="Bold" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2"/>
+            <Button x:Name="EurDollar" FontWeight="Bold" Content="EUR/DOL" Margin="0,3,3,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="EurDollarClick" Grid.Row="2" Grid.RowSpan="2" Grid.Column="2"/>
             <Button x:Name="Delen" FontWeight="Bold" Grid.Column="3" Margin="0,3,3,0" Content="/" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="DelenClick" Grid.RowSpan="2" Grid.Row="2"/>
 
             <Button x:Name="Modulo" FontWeight="Bold" Grid.Column="0" Grid.Row="3" Margin="0,3,3,0" Content="%" VerticalAlignment="Stretch" Click="ModuloClick" HorizontalAlignment="Stretch" MinHeight="20"/>
