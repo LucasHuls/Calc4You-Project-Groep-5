@@ -64,7 +64,7 @@ namespace Rekenmachine
             }
             else
             {
-                this.path.Text = "Operation cancelled.";
+                this.path.Text = "Er is een fout opgetreden";
             }
 
             // Get the path and filename to process from the user.
