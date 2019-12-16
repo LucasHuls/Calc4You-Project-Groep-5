@@ -245,10 +245,13 @@ namespace Rekenmachine
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             string connetionString; //De Connectionstring is een variabele
             SqlConnection cnn; //Cnn is de command voor de SQLConnection
             connetionString = @"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You; User Id=Lucas; Password=admin"; //Connection string met alle gegevens
 =======
+=======
+>>>>>>> refs/remotes/origin/master
             //Verbinden met database
             string connetionString;                                     //De Connectionstring is een variabele
             SqlConnection cnn;                                          //Cnn is de command voor de SQLConnection
@@ -260,9 +263,12 @@ namespace Rekenmachine
             SqlCommand command;                                         //SQL Command is command
             SqlDataAdapter adapter = new SqlDataAdapter();
 <<<<<<< HEAD
+<<<<<<< HEAD
             string sql = string.Empty; //Lege string bij startup
             string berekening = (getal1 + operatie + getal2); //Maakt een van alle getallen een berekening voor de weergave
 =======
+=======
+>>>>>>> refs/remotes/origin/master
             string sql = string.Empty;                                  //Lege string bij startup
             string berekening = (getal1 + operatie + getal2);
 >>>>>>> d421718c6dfeb82cac6d4d825617f44c822d4c0b
