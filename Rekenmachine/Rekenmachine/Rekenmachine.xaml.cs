@@ -13,7 +13,7 @@ namespace Rekenmachine
         //SQL
         public void SQL()
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
+            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas;Password=admin"); //Connection string met alle gegevens
             SqlCommand command = new SqlCommand("SELECT * FROM berekeningen ORDER BY ID DESC", conn); //SQL Command omgezet naar een C# command
             BerekeningDB.Items.Clear(); //Leeg de Lijst voordat hij word gerefresht
 
@@ -244,17 +244,34 @@ namespace Rekenmachine
                 Uitkomst.Text = resultaat.ToString();
             }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+            string connetionString; //De Connectionstring is een variabele
+            SqlConnection cnn; //Cnn is de command voor de SQLConnection
+            connetionString = @"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You; User Id=Lucas; Password=admin"; //Connection string met alle gegevens
+=======
+=======
+>>>>>>> refs/remotes/origin/master
             //Verbinden met database
             string connetionString;                                     //De Connectionstring is een variabele
             SqlConnection cnn;                                          //Cnn is de command voor de SQLConnection
             connetionString = @"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You; User Id=Sam; Password=admin"; //Connection string met alle gegevens
+>>>>>>> d421718c6dfeb82cac6d4d825617f44c822d4c0b
             cnn = new SqlConnection(connetionString);
             cnn.Open();                                                 //Zet de SQL connection open
 
             SqlCommand command;                                         //SQL Command is command
             SqlDataAdapter adapter = new SqlDataAdapter();
+<<<<<<< HEAD
+<<<<<<< HEAD
+            string sql = string.Empty; //Lege string bij startup
+            string berekening = (getal1 + operatie + getal2); //Maakt een van alle getallen een berekening voor de weergave
+=======
+=======
+>>>>>>> refs/remotes/origin/master
             string sql = string.Empty;                                  //Lege string bij startup
             string berekening = (getal1 + operatie + getal2);
+>>>>>>> d421718c6dfeb82cac6d4d825617f44c822d4c0b
             sql = "insert into Berekeningen (Berekening,Uitkomst) values('" + berekening + "', '" + resultaat + "')"; //Betreffende SQL cmd die word uitgevoerd
 
             command = new SqlCommand(sql, cnn);
@@ -332,7 +349,7 @@ namespace Rekenmachine
         //Database leegmaken
         private void Leeg_Click(object sender, RoutedEventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-JU0OGBA;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Sam; Password=admin"); //Connection string met alle gegevens
+            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-1QAILB3P;Initial Catalog=Calc4You;Integrated Security=True;Trusted_Connection=False;User Id=Lucas; Password=admin"); //Connection string met alle gegevens
             SqlCommand command = new SqlCommand("DELETE FROM berekeningen", conn); //Betreffende SQL cmd die word uitgevoerd
             conn.Open();                                                           //Zet de SQL Connection open
             SqlDataReader reader = command.ExecuteReader();
